@@ -1,0 +1,9 @@
+.go-to-top a {
+  background-color: #1565c0;
+  box-shadow: 0 12px 35px -10px rgba(21, 101, 192, 0.55), 0 8px 10px -5px rgba(0, 0, 0, 0.09), 0 4px 25px -2px rgba(0, 0, 0, 0.14);
+}
+
+.go-to-top a:hover, .go-to-top a:focus {
+  background-color: #1977e2;
+  box-shadow: 0 1px 9px 0 rgba(21, 101, 192, 0.5);
+}
