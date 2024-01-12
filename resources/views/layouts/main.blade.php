@@ -268,7 +268,7 @@
 
                             <div class="col-10 col-lg-9 col-xl-10">
                                 <div class="pl-2">
-                                    2926 Kincheloe Road<br>Portland Oregon 97229
+                                    7th Floor, ZB Chambers, Cnr First Street and George Silundika Avenue, Harare,
                                 </div>
                             </div>
 
@@ -282,8 +282,8 @@
 
                             <div class="col-10 col-lg-9 col-xl-10">
                                 <div class="pl-2">
-                                    1-407-587-6602<br>
-                                    1-557-846-9057
+                                 +263 242 759 055<br>
+                                    +263 772 522 373
                                 </div>
                             </div>
 
@@ -297,7 +297,7 @@
 
                             <div class="col-10 col-lg-9 col-xl-10">
                                 <div class="pl-2">
-                                    contact@domain.com
+                                    marketing@milmindszw.com
                                 </div>
                             </div>
 
