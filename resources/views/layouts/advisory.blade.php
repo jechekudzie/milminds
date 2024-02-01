@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="#">
-    <title>MILMINDS HOLDINGS</title>
+    <title>MIL-MINDS ADVISORY</title>
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="{{ asset('/node_modules/@fortawesome/fontawesome-free/css/all.min.css') }}">
@@ -59,7 +59,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarPrimary">
             <!-- Primary navigation items -->
-            @include('layouts.website_nav')
+          @include('layouts.website_nav')
         </div>
     </div>
 </nav>
@@ -71,7 +71,7 @@
             <!-- Logo on the left -->
             <div class="col-6 col-md-6">
                 <a href="{{ url('/') }}">
-                    <img class="logo" src="{{ asset('/images/logo-holding-removebg-preview.png') }}" alt="Logo"
+                    <img class="logo" src="{{ asset('/images/logos/logo-advisory-removebg-preview.png') }}" alt="Logo"
                          style="height: 80px;"> <!-- Adjust the height as needed -->
                 </a>
             </div>
@@ -102,7 +102,7 @@
 <nav style="background-color: #3491c9;" class="navbar navbar-expand-lg navbar-dark {{--bg-secondary--}}">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <a class="navbar-brand" href="{{ url('/') }}">{{-- Milminds Holdings--}}</a>
+        <a class="navbar-brand" href="{{ url('/') }}">{{--Mil-Minds Advisory--}}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecondary"
                 aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -113,21 +113,21 @@
             <!-- ... -->
             <ul class="navbar-nav {{--ml-auto--}}">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                    <a class="nav-link" href="{{ url('/advisory') }}">Mil-Minds Advisory</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#about') }}">About Us</a>
+                    <a class="nav-link" href="{{ url('#vision') }}">Our Vision</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#about') }}">Business Philosophy</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#brands') }}">Our Brands</a>
+                    <a class="nav-link" href="{{ url('#about') }}">Who We Are</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#why-choose-us') }}">Why Choose Us</a>
+                    <a class="nav-link" href="{{ url('#values') }}">What We Stand For</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('#community') }}">Our Community</a>
                 </li>
 
                 <li class="nav-item">

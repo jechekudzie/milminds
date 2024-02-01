@@ -15,11 +15,11 @@
 
     <!-- Fancybox CSS -->
     <link rel="stylesheet" href="../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
-
+    
     <!-- OWL carousel CSS -->
     <link rel="stylesheet" href="../../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
-
+    
     <!-- Main CSS -->
     <link rel="stylesheet" href="../../../assets/css/style.min.css">
 
@@ -33,25 +33,62 @@
 </head>
 <body>
 
+    <!-- Preloader -->
+    <div class="preloader-container">
+        <div class="preloader-wrapper">
+            <div class="preloader-border"></div>
+            <div class="preloader-line-mask">
+                <div class="preloader-line"></div>
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation menu -->
     <div class="navik-header header-shadow navik-mega-menu mega-menu-fullwidth">
+
+        <div class="bg-indigo">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 text-white-75 text-center text-lg-left py-3 py-lg-0">
+                        <small>Fusce sem massa congue vitae <a href="#" class="text-white font-weight-600">ornare eu maecenas</a></small>
+                    </div>
+
+                    <div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end">
+                        <div class="dropdown">
+                            <button class="btn btn-indigo dropdown-toggle shadow-none rounded-0 mb-0" type="button" id="languageButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Change language
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="languageButton">
+                                <a class="dropdown-item" href="#">English</a>
+                                <a class="dropdown-item" href="#">Dutch</a>
+                                <a class="dropdown-item" href="#">German</a>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-secondary shadow-none rounded-0 mb-0">Deal of the week</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="navik-header-container">
-
+                
                 <!--Logo-->
                 <div class="logo" data-mobile-logo="../../../assets/svg/upload/logo-dark.svg" data-sticky-logo="../../../assets/svg/upload/logo-dark.svg">
                     <a href="../../../index.html"><img src="../../../assets/svg/upload/logo-dark.svg" alt="logo"/></a>
                 </div>
-
+                
                 <!-- Burger menu -->
                 <div class="burger-menu">
                     <div class="line-menu line-half first-line"></div>
                     <div class="line-menu"></div>
                     <div class="line-menu line-half last-line"></div>
                 </div>
-
+        
                 <!--Navigation menu-->
-                <nav class="navik-menu menu-hover-3 menu-caret submenu-top-border">
+                <nav class="navik-menu menu-hover-3 menu-caret submenu-top-border submenu-scale">
                     <ul>
                         <li class="current-menu"><a href="index.html">Home</a></li>
                         <li><a href="#">Pages</a>
@@ -131,12 +168,11 @@
 
 											<div class="col-md-6 col-lg-3">
 												<div class="mega-menu-box">
-													<div class="mega-menu-thumbnail">
-														<a href="#">
-															<img src="../../../assets/images/upload/mega-menu-service-09.jpg" alt="image">
-														</a>
-													</div>
-													<h4 class="mega-menu-heading font-weight-700"><a href="#">Family Insurance</a></h4>
+													<a href="#" class="d-block mb-4">
+                                                        <img src="../../../assets/images/upload/bike-sport-menu-product-01.jpg" alt="image">
+                                                    </a>
+                                                    <h4 class="mega-menu-heading font-weight-700 mb-2"><a href="#">Mauris pulvinar metus</a></h4>
+                                                    <div class="font-italic mb-3">$1,290.99</div>
 													<div class="mega-menu-desc">
 														Donec tellus faucibus dolor viverra neca blandit at justo pendisse dolor turpis lobortis in sodales.
 													</div>
@@ -145,42 +181,39 @@
 
 											<div class="col-md-6 col-lg-3">
 												<div class="mega-menu-box">
-													<div class="mega-menu-thumbnail">
-														<a href="#">
-															<img src="../../../assets/images/upload/mega-menu-service-10.jpg" alt="image">
-														</a>
-													</div>
-													<h4 class="mega-menu-heading font-weight-700"><a href="#">Car Insurance</a></h4>
+													<a href="#" class="d-block mb-4">
+                                                        <img src="../../../assets/images/upload/bike-sport-menu-product-02.jpg" alt="image">
+                                                    </a>
+													<h4 class="mega-menu-heading font-weight-700 mb-2"><a href="#">Congue lacus ultrices</a></h4>
+                                                    <div class="font-italic mb-3">$1,340.99</div>
 													<div class="mega-menu-desc">
-														Quisque vitae sapien neque in amet fusce enim nec nisl gravida rutrum dolor justo sem scelerisque.
+														Quisque vitae sapien neque in amet fusce enim ac nisl gravida rutrum dolor justo sem scelerisque.
 													</div>
 												</div>
 											</div>
 
 											<div class="col-md-6 col-lg-3">
 												<div class="mega-menu-box">
-													<div class="mega-menu-thumbnail">
-														<a href="#">
-															<img src="../../../assets/images/upload/mega-menu-service-11.jpg" alt="image">
-														</a>
-													</div>
-													<h4 class="mega-menu-heading font-weight-700"><a href="#">Travel Insurance</a></h4>
+													<a href="#" class="d-block mb-4">
+                                                        <img src="../../../assets/images/upload/bike-sport-menu-product-03.jpg" alt="image">
+                                                    </a>
+													<h4 class="mega-menu-heading font-weight-700 mb-2"><a href="#">Fermentum sem metus</a></h4>
+                                                    <div class="font-italic mb-3">$1,240.99</div>
 													<div class="mega-menu-desc">
-														Laoreet eu ornare at nulla in luctus neque dapibus rhoncus malesuada in vivamus sodales vestibulum.
+														Laoreet eu ornare at nulla in luctus neque dapibus rhoncus in malesuada vivamus sodales vestibulum.
 													</div>
 												</div>
 											</div>
 
 											<div class="col-md-6 col-lg-3">
 												<div class="mega-menu-box">
-													<div class="mega-menu-thumbnail">
-														<a href="#">
-															<img src="../../../assets/images/upload/mega-menu-service-12.jpg" alt="image">
-														</a>
-													</div>
-													<h4 class="mega-menu-heading font-weight-700"><a href="#">Health Insurance</a></h4>
+													<a href="#" class="d-block mb-4">
+                                                        <img src="../../../assets/images/upload/bike-sport-menu-product-04.jpg" alt="image">
+                                                    </a>
+													<h4 class="mega-menu-heading font-weight-700 mb-2"><a href="#">Euismod lectus sapien</a></h4>
+                                                    <div class="font-italic mb-3">$1,250.99</div>
 													<div class="mega-menu-desc">
-														Placerat semper massa molestie vehicula ultricies pharetra nisl sem a fermentum sollicitudin.
+														Placerat semper massa molestie vehicula ultricies pharetra nisl a sem fermentum sollicitudin.
 													</div>
 												</div>
 											</div>
@@ -336,82 +369,76 @@
 
             </div>
         </div>
+
     </div>
 
     <!-- Hero banner -->
-    <div class="d-flex flex-column w-100">
-        <div class="page-header-block-height d-flex align-items-center bg-image py-5" data-img-src="../../../assets/images/upload/section-hero-banner-06.jpg">
-            <div class="container">
-                <div class="row align-items-center">
+    <div class="bg-image" data-img-src="../../../assets/images/upload/section-hero-banner-04.jpg">
+        <div class="container-fluid d-flex flex-column p-0">
+            <div class="row no-gutters page-header-block-height align-content-between">
 
-                    <div class="col-md-10 offset-md-1 col-lg-5 offset-lg-0">
-                        <div class="my-5 add-animate" data-animated="fadeIn">
-                            <h2 class="h3 font-weight-300 text-white">Live Your Dream</h2>
-                            <h1 class="display-4 font-weight-800 text-white mb-5">Affordable Family Health Insurance</h1>
-                            <div class="lead-sm text-white-75 pb-lg-4">Fusce nec mattis arcu rhoncus risus duis pretium condimentum purus eget cursus molestie rhoncus vestibulum pulvinar magna</div>
+                <div class="col-12"></div>
+
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row align-items-center mt-4 mb-5 mt-md-5 mt-lg-4 mb-lg-0">
+
+                            <div class="col-md-10 offset-md-1 col-lg-5 offset-lg-0 py-lg-5">
+                                <div class="py-5 pl-lg-4 ml-lg-n4 overflow-hidden text-center text-lg-left">
+                                    <h2 class="h5 font-weight-700 text-warning letter-spacing-sm mb-lg-0 add-animate" data-animated="bounceInLeft">Product Of The Week</h2>
+                                    <h1 class="display-2 font-weight-800 text-white add-animate" data-animated="bounceInRight">All Bikes</h1>
+                                    <div class="lead-sm font-weight-500 text-white pb-2 mb-5 add-animate" data-animated="bounceInLeft">Fusce sem massa congue vitae neque in rhoncus viverra aliquam odio posuere lobortis amet consequat dolor</div>
+                                    <div class="add-animate" data-animated="bounceInRight">
+                                        <a href="#" class="btn btn-lg btn-round btn-dark mx-2 mb-xl-0 ml-xl-0"><i class="fas fa-biking"></i>View product</a>
+                                        <a href="#" class="btn btn-lg btn-round btn-outline-light mx-2 mb-xl-0"><i class="fas fa-tags"></i>Go to store</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-7 text-center py-4 py-md-5">
+                                <img class="img-fluid add-animate" src="../../../assets/images/upload/hero-banner-4-image.png" alt="image" data-animated="bounceInDown">
+                            </div>
+                            
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-10 offset-md-1 col-lg-5 offset-lg-2">
-                        <div class="pl-xl-5">
-                            <div class="bg-indigo text-white-75 rounded-ultra shadow-lg px-4 py-5 p-md-5 my-5">
+                <div class="col-12">
+                    <div class="row no-gutters align-items-center">
 
-                                <h3 class="font-weight-700 text-white">Let's Get Started</h3>
-                                <div class="pb-3">
-                                    <p>Maecenas est convallis arcu fusce sem.</p>
+                        <div class="col-lg-4 col-xl-5 px-5 mb-5 mb-lg-0">
+                            <div class="px-xl-3 text-white text-center text-lg-left">
+                                <a href="#" class="btn btn-round btn-lg btn-icon-only btn-outline-light mr-3 mb-0"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="btn btn-round btn-lg btn-icon-only btn-outline-light mr-3 mb-0"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-round btn-lg btn-icon-only btn-outline-light mb-0"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-8 col-xl-7">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-9 px-4 pr-md-0 pl-md-5 pb-5 py-md-4 text-center text-md-left d-md-flex align-items-center justify-content-between text-white bg-dark order-2 order-md-1">
+                                    <div class="position-relative z-index-1 d-flex align-items-center justify-content-center mx-auto mt-n5 mb-3 my-md-0 mr-md-n5 order-md-2" data-width="6rem" data-height="6rem">
+                                        <a data-fancybox href="https://vimeo.com/65953889" class="btn btn-round btn-lg btn-icon-only btn-indigo btn-gray-shadow mb-0 d-flex align-items-center justify-content-center" data-width="64px" data-height="64px">
+                                            <img src="../../../assets/svg/upload/play-hand-drawn.svg" alt="icon" data-width="36px" data-height="36px">
+                                        </a>
+                                    </div>
+                                    <div class="pr-md-4 pl-md-0 pr-xl-5 order-md-1">
+                                        <h3 class="font-weight-700 text-white mb-3 mb-md-1">Choose a <span class="text-warning">Featured Bike</span></h3>
+                                        <p class="mb-md-0">Mauris pulvinar metus nibh iaculis neca massa.</p>
+                                    </div>
                                 </div>
 
-                                <form class="form-light-2">
-
-                                    <div class="input-group input-group-lg input-group-round mb-4">
-                                        <div class="input-group-inner">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text input-group-icon"><i class="far fa-user"></i></span>
-                                            </div>
-                                            <input type="text" class="form-control form-control-lg" placeholder="Your name">
-                                            <div class="input-focus-bg"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="input-group input-group-lg input-group-round mb-4">
-                                        <div class="input-group-inner">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text input-group-icon"><i class="far fa-envelope"></i></span>
-                                            </div>
-                                            <input type="email" class="form-control form-control-lg" placeholder="Email address">
-                                            <div class="input-focus-bg"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="input-group input-group-lg input-group-round mb-5">
-                                        <div class="input-group-inner">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text input-group-icon"><i class="far fa-list-alt"></i></span>
-                                            </div>
-                                            <select class="custom-select custom-select-lg">
-                                                <option selected>Select plan</option>
-                                                <option value="1">Standard</option>
-                                                <option value="2">Platinum</option>
-                                                <option value="3">Diamond</option>
-                                            </select>
-                                            <div class="input-focus-bg"></div>
-                                        </div>
-                                    </div>
-
-                                    <button type="submit" class="btn btn-block btn-lg btn-round btn-light shadow-none text-indigo font-weight-700">Get a Quote</button>
-
-                                    <div class="form-group custom-control custom-checkbox text-center pt-1 mb-0">
-                                        <input type="checkbox" class="custom-control-input" id="registerCheck">
-                                        <label class="custom-control-label text-white-75" for="registerCheck">I agree to the <a href="#" target="_blank" class="text-white font-weight-600">Terms and Conditions</a>.</label>
-                                    </div>
-
-                                </form>
+                                <div class="col-md-3 bg-image order-1 order-md-2" data-img-src="../../../assets/images/upload/hero-banner-4-thumbnail.jpg">
+                                    <div class="d-md-none" data-height="60vw"></div>
+                                </div>
 
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -419,605 +446,392 @@
     <!-- Content -->
     <div class="main-content pb-0">
 
-        <!-- About Us section -->
-        <div class="section py-5 mb-5">
+        <!-- Overview section -->
+        <div class="section pb-5">
             <div class="container">
+                <div class="row align-items-center pb-5 mb-5">
 
-                <div class="row align-items-center">
+                    <div class="col-lg-4 order-2 order-lg-1">
 
-                    <div class="col-lg-6">
-                        <div class="row pb-4 pb-lg-0 mb-5 mb-lg-0">
-
-                            <div class="col-md-6">
-
-                                <img src="../../../assets/images/upload/benefit-image-06.jpg" alt="image" class="img-fluid rounded-xl shadow-lg add-animate" data-animated="fadeInLeft">
-
-                                <div data-height="30px"></div>
-
-                                <div class="bg-secondary rounded-xl shadow-lg p-4 add-animate" data-animated="fadeInUp">
-
-                                    <div class="d-flex align-items-center">
-                                        <h2 class="display-4 text-white font-weight-500 mb-0 mr-2">40</h2>
-                                        <div class="text-white-75 text-uppercase line-height-md font-weight-500">
-                                            Years of<br>Experience
-                                        </div>
-                                    </div>
-
-                                    <div data-height="106px"></div>
-
-                                    <h4 class="text-white font-weight-700 line-height-sm mb-0">Best Insurances For Everyone</h4>
-
+                        <div class="icon-info-5 text-center pb-4 mb-5">
+                            <a class="icon-info-link" href="#">
+                                <div class="icon-element d-flex align-items-center justify-content-center mb-4 bg-sky add-animate faster" data-animated="zoomIn">
+                                    <img src="../../../assets/svg/upload/overview-icon-01.svg" alt="icon" class="img-fluid" data-width="48px" data-height="48px">
                                 </div>
+                                <div class="icon-info-text px-4 pt-3">
+                                    <h4 class="font-weight-700 mb-3">Tune-ups & Builds</h4>
+                                    <p class="mb-0">Aenean sem mattis arcu rhoncus dictum nec nunc quis convallis ipsum cursus</p>
+                                </div>
+                            </a>
+                        </div>
 
-                                <div class="d-md-none" data-height="30px"></div>
+                        <div class="icon-info-5 text-center pb-4 mb-5 pb-lg-0 mb-lg-0">
+                            <a class="icon-info-link" href="#">
+                                <div class="icon-element d-flex align-items-center justify-content-center mb-4 bg-secondary add-animate faster" data-animated="zoomIn">
+                                    <img src="../../../assets/svg/upload/overview-icon-02.svg" alt="icon" class="img-fluid" data-width="48px" data-height="48px">
+                                </div>
+                                <div class="icon-info-text px-4 pt-3">
+                                    <h4 class="font-weight-700 mb-3">Personal Bike Fit</h4>
+                                    <p class="mb-0">Duis pretium purus cursus molestie magna consequat dolor semper malesuada</p>
+                                </div>
+                            </a>
+                        </div>
 
-                            </div>
+                    </div>
 
-                            <div class="col-md-6">
-                                <img src="../../../assets/images/upload/benefit-image-05.jpg" alt="image" class="img-fluid rounded-xl shadow-lg add-animate" data-animated="fadeInUp">
-                            </div>
-
+                    <div class="col-lg-4 order-1 order-lg-2">
+                        <div class="text-center pb-5 pb-lg-0 mx-md-5 mx-lg-0 mb-5 mb-lg-0">
+                            <img src="../../../assets/images/upload/biker-01.png" alt="image" class="img-fluid add-animate" data-animated="fadeIn">
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
-                        <div class="px-xl-5">
-                            <div class="pl-lg-3">
+                    <div class="col-lg-4 order-3">
 
-                                <div class="mb-5 add-animate" data-animated="fadeIn">
-
-                                    <h5 class="font-weight-400">Meet Our Insurance Agency</h5>
-
-                                    <div data-height="3px"></div>
-
-                                    <h2 class="h1 section-title-3 text-left font-weight-800">We Are Always Ahead</h2>
-
-                                    <div class="lead-sm pt-2">
-                                        Duis pretium purus eget cursus molestie magna pulvinar consequat magna nec malesuada sapien
-                                    </div>
-
+                        <div class="icon-info-5 text-center pb-4 mb-5">
+                            <a class="icon-info-link" href="#">
+                                <div class="icon-element d-flex align-items-center justify-content-center mb-4 bg-success add-animate faster" data-animated="zoomIn">
+                                    <img src="../../../assets/svg/upload/overview-icon-03.svg" alt="icon" class="img-fluid" data-width="48px" data-height="48px">
                                 </div>
-
-                                <div class="row mb-5 add-animate" data-animated="fadeIn">
-
-                                    <div class="col-md-6">
-                                        <ul class="custom-list fa-ul mb-2 mb-md-0 ml-4">
-                                            <li class="pl-1"><span class="fa-li text-right"><i class="fas fa-check text-warning mr-2"></i></span>Congue Vitae</li>
-                                            <li class="pl-1"><span class="fa-li text-right"><i class="fas fa-check text-warning mr-2"></i></span>Neque In Lectus</li>
-                                            <li class="pl-1"><span class="fa-li text-right"><i class="fas fa-check text-warning mr-2"></i></span>Viverra Iaculis</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <ul class="custom-list fa-ul mb-0 ml-4">
-                                            <li class="pl-1"><span class="fa-li text-right"><i class="fas fa-check text-warning mr-2"></i></span>Posuere Rutrum</li>
-                                            <li class="pl-1"><span class="fa-li text-right"><i class="fas fa-check text-warning mr-2"></i></span>Cras Efficitur</li>
-                                            <li class="pl-1"><span class="fa-li text-right"><i class="fas fa-check text-warning mr-2"></i></span>Mattis Interdun</li>
-                                        </ul>
-                                    </div>
-
+                                <div class="icon-info-text px-4 pt-3">
+                                    <h4 class="font-weight-700 mb-3">Adjust & Install</h4>
+                                    <p class="mb-0">Magna nec sapien era nullam ornare dictum aenean sem ornare orci nunc alique</p>
                                 </div>
-
-                                <div data-height="10px"></div>
-
-                                <div class="add-animate" data-animated="fadeIn">
-                                    <a href="#" class="btn btn-lg btn-round btn-indigo mb-0">Get an Insurance Quote</a>
-                                </div>
-
-                            </div>
+                            </a>
                         </div>
-                    </div>
 
-                </div>
-
-                <div class="py-3"></div>
-
-            </div>
-        </div>
-
-        <!-- Featured services section -->
-        <div class="section">
-            <div class="container-fluid px-2">
-                <div class="row no-gutters mx-n1">
-
-                    <div class="col-md-6 col-xl-3 px-1 pb-2">
-                        <div class="card info-box-1 border-0 rounded-0 text-center mb-0">
-                            <img class="card-img rounded-0" src="../../../assets/images/upload/insurance-info-box-01.jpg" alt="image">
-                            <div class="card-img-overlay d-flex align-items-center">
-                                <div class="w-100">
-                                    <div class="info-box-caption">
-                                        <span class="badge badge-pill badge-indigo mb-4">Family Insurance</span>
-                                        <h5 class="card-title text-white font-weight-700 mb-1">Take Care of Your Family</h5>
-                                        <p class="card-text text-white-75">Aliquam in dignissim nostra</p>
-                                    </div>
-                                    <div class="info-box-btn">
-                                        <div class="info-box-btn-inner">
-                                            <a href="#" class="btn btn-round btn-outline-light mt-4 mb-0">View details</a>
-                                        </div>
-                                    </div>
+                        <div class="icon-info-5 text-center">
+                            <a class="icon-info-link" href="#">
+                                <div class="icon-element d-flex align-items-center justify-content-center mb-4 bg-indigo add-animate faster" data-animated="zoomIn">
+                                    <img src="../../../assets/svg/upload/overview-icon-04.svg" alt="icon" class="img-fluid" data-width="48px" data-height="48px">
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-xl-3 px-1 pb-2">
-                        <div class="card info-box-1 border-0 rounded-0 text-center mb-0">
-                            <img class="card-img rounded-0" src="../../../assets/images/upload/insurance-info-box-02.jpg" alt="image">
-                            <div class="card-img-overlay d-flex align-items-center">
-                                <div class="w-100">
-                                    <div class="info-box-caption">
-                                        <span class="badge badge-pill badge-indigo mb-4">Car Insurance</span>
-                                        <h5 class="card-title text-white font-weight-700 mb-1">Find The Right Insurance</h5>
-                                        <p class="card-text text-white-75">Mauris pulvinar metus sem</p>
-                                    </div>
-                                    <div class="info-box-btn">
-                                        <div class="info-box-btn-inner">
-                                            <a href="#" class="btn btn-round btn-outline-light mt-4 mb-0">View details</a>
-                                        </div>
-                                    </div>
+                                <div class="icon-info-text px-4 pt-3">
+                                    <h4 class="font-weight-700 mb-3">Free Delivery</h4>
+                                    <p class="mb-0">Cursus orci maximus eu quisque odio arcu lobortis efficitur pretium at urna</p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                    </div>
 
-                    <div class="col-md-6 col-xl-3 px-1 pb-2">
-                        <div class="card info-box-1 border-0 rounded-0 text-center mb-0">
-                            <img class="card-img rounded-0" src="../../../assets/images/upload/insurance-info-box-03.jpg" alt="image">
-                            <div class="card-img-overlay d-flex align-items-center">
-                                <div class="w-100">
-                                    <div class="info-box-caption">
-                                        <span class="badge badge-pill badge-indigo mb-4">Travel Insurance</span>
-                                        <h5 class="card-title text-white font-weight-700 mb-1">Covers All Your Needs</h5>
-                                        <p class="card-text text-white-75">Nibh iaculis neca congue</p>
-                                    </div>
-                                    <div class="info-box-btn">
-                                        <div class="info-box-btn-inner">
-                                            <a href="#" class="btn btn-round btn-outline-light mt-4 mb-0">View details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-xl-3 px-1 pb-2">
-                        <div class="card info-box-1 border-0 rounded-0 text-center mb-0">
-                            <img class="card-img rounded-0" src="../../../assets/images/upload/insurance-info-box-04.jpg" alt="image">
-                            <div class="card-img-overlay d-flex align-items-center">
-                                <div class="w-100">
-                                    <div class="info-box-caption">
-                                        <span class="badge badge-pill badge-indigo mb-4">Health Insurance</span>
-                                        <h5 class="card-title text-white font-weight-700 mb-1">Manage Your Retirement</h5>
-                                        <p class="card-text text-white-75">Cursus vestibulum lobortis</p>
-                                    </div>
-                                    <div class="info-box-btn">
-                                        <div class="info-box-btn-inner">
-                                            <a href="#" class="btn btn-round btn-outline-light mt-4 mb-0">View details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                 </div>
             </div>
         </div>
 
-        <!-- Benefits section -->
-        <div class="section py-5 bg-image" data-img-src="../../../assets/images/upload/insurance-services-bg-image.jpg">
-            <div class="container">
-
-                <div class="row my-5">
-                    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                        <div class="text-center mt-2">
-                            <h2 class="h1 section-title-3 title-light-1 font-weight-800">Award Winning Company</h2>
-                            <div class="lead-sm text-white-75 pt-2">
-                                Mauris pulvinar metus sem nibh iaculis sem congue lacus ultrices nec vestibulum consequa scelerisque quis interdum nec tincidunt amet luctus blandit amet molestie
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mb-5">
-
-                    <div class="col-md-6 col-lg-4 pb-2">
-                        <div class="icon-info-4 text-center bg-indigo rounded-xl shadow-lg p-5 mb-4 add-animate" data-animated="fadeInLeft">
-                            <a class="icon-info-link py-3" href="#">
-                                <div class="icon-element mb-4">
-                                    <img src="../../../assets/svg/upload/service-icon-17.svg" alt="icon" data-width="56px" data-height="56px">
-                                </div>
-                                <div class="icon-info-text text-white-75 pt-2">
-                                    <h5 class="font-weight-700 text-white mb-3">Quick Clearance</h5>
-                                    <p class="mb-0">Fusce sem massa congue vitae in neque rhoncus viverra odio massa</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 pb-2">
-                        <div class="icon-info-4 text-center bg-indigo rounded-xl shadow-lg p-5 mb-4 add-animate" data-animated="fadeInUp">
-                            <a class="icon-info-link py-3" href="#">
-                                <div class="icon-element mb-4">
-                                    <img src="../../../assets/svg/upload/service-icon-22.svg" alt="icon" data-width="56px" data-height="56px">
-                                </div>
-                                <div class="icon-info-text text-white-75 pt-2">
-                                    <h5 class="font-weight-700 text-white mb-3">Best Partners</h5>
-                                    <p class="mb-0">Interdum tincidunt lectus amet egestas cras luctus donec justo nibh</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 pb-2">
-                        <div class="icon-info-4 text-center bg-indigo rounded-xl shadow-lg p-5 mb-4 add-animate" data-animated="fadeInRight">
-                            <a class="icon-info-link py-3" href="#">
-                                <div class="icon-element mb-4">
-                                    <img src="../../../assets/svg/upload/service-icon-23.svg" alt="icon" data-width="56px" data-height="56px">
-                                </div>
-                                <div class="icon-info-text text-white-75 pt-2">
-                                    <h5 class="font-weight-700 text-white mb-3">Only Professionals</h5>
-                                    <p class="mb-0">Fermentum volutpat pellentesque sem metus fusce nec iaculis quam</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 pb-2">
-                        <div class="icon-info-4 text-center bg-indigo rounded-xl shadow-lg p-5 mb-4 add-animate" data-animated="fadeInLeft">
-                            <a class="icon-info-link py-3" href="#">
-                                <div class="icon-element mb-4">
-                                    <img src="../../../assets/svg/upload/service-icon-24.svg" alt="icon" data-width="56px" data-height="56px">
-                                </div>
-                                <div class="icon-info-text text-white-75 pt-2">
-                                    <h5 class="font-weight-700 text-white mb-3">Best Price List</h5>
-                                    <p class="mb-0">Consequat eu dolor nulla eget velit vitae semper efficitur fermentum</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 pb-2">
-                        <div class="icon-info-4 text-center bg-indigo rounded-xl shadow-lg p-5 mb-4 add-animate" data-animated="fadeInUp">
-                            <a class="icon-info-link py-3" href="#">
-                                <div class="icon-element mb-4">
-                                    <img src="../../../assets/svg/upload/service-icon-25.svg" alt="icon" data-width="56px" data-height="56px">
-                                </div>
-                                <div class="icon-info-text text-white-75 pt-2">
-                                    <h5 class="font-weight-700 text-white mb-3">No Policy Fees</h5>
-                                    <p class="mb-0">Morbi nec placera sem mollis bibendum dolor etiam vehicula semper</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 pb-2">
-                        <div class="icon-info-4 text-center bg-indigo rounded-xl shadow-lg p-5 mb-4 add-animate" data-animated="fadeInRight">
-                            <a class="icon-info-link py-3" href="#">
-                                <div class="icon-element mb-4">
-                                    <img src="../../../assets/svg/upload/service-icon-26.svg" alt="icon" data-width="56px" data-height="56px">
-                                </div>
-                                <div class="icon-info-text text-white-75 pt-2">
-                                    <h5 class="font-weight-700 text-white mb-3">Support 24/7</h5>
-                                    <p class="mb-0">Tellus ullamcorper lobortis dui aenean dictum nunc quis convallis</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Why Us section -->
-        <div class="section py-5">
-            <div class="container">
-
-                <div class="row align-items-center py-3 my-5">
-
-                    <div class="col-lg-6">
-                        <div class="pt-3 pr-lg-5 mb-5 mb-lg-0">
-
-                            <h2 class="h1 section-title-3 text-left font-weight-800 mb-5">Why Choose Us</h2>
-
-                            <div data-height="10px"></div>
-
-                            <div class="icon-info-1 mb-5">
-                                <div class="icon-element text-primary">
-                                    <img src="../../../assets/svg/upload/benefit-icon-05.svg" alt="icon" class="add-animate faster" data-animated="zoomIn" data-width="60px" data-height="60px">
-                                </div>
-                                <div class="icon-info-text pl-4">
-                                    <h5 class="font-weight-700">Professional Liability</h5>
-                                    <p>Nec congue lacus ultrices neque nec aliquam laoreet diam scelerisque rutrum velit nec iaculis est massa</p>
-                                </div>
-                            </div>
-
-                            <div class="icon-info-1 mb-5">
-                                <div class="icon-element text-primary">
-                                    <img src="../../../assets/svg/upload/benefit-icon-06.svg" alt="icon" class="add-animate faster" data-animated="zoomIn" data-width="60px" data-height="60px">
-                                </div>
-                                <div class="icon-info-text pl-4">
-                                    <h5 class="font-weight-700">Trustworthy Company</h5>
-                                    <p>Sapien arcu porta in dapibus lacinia justo nam consequa condimentum mattis aliquet interdum</p>
-                                </div>
-                            </div>
-
-                            <div class="icon-info-1">
-                                <div class="icon-element text-primary">
-                                    <img src="../../../assets/svg/upload/benefit-icon-07.svg" alt="icon" class="add-animate faster" data-animated="zoomIn" data-width="60px" data-height="60px">
-                                </div>
-                                <div class="icon-info-text pl-4">
-                                    <h5 class="font-weight-700">Financial Services</h5>
-                                    <p>Convallis fusce sapien consequa lectus sagittis malesuada fermentum iaculis semper pharetra justo</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-
-                        <div id="carouselIndicatorsCircle" class="carousel slide gallery-slides arrow-nav-overflow rounded-xl shadow-lg mb-5" data-ride="carousel">
-                            <ol class="carousel-indicators carousel-indicator-circle">
-                                <li data-target="#carouselIndicatorsCircle" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselIndicatorsCircle" data-slide-to="1"></li>
-                                <li data-target="#carouselIndicatorsCircle" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <a href="../../../assets/images/upload/insurance-benefits-img-01.jpg" data-fancybox="benefits-gallery" data-caption="Mauris Pulvinar Metus">
-                                        <div class="gallery-slides-hover"></div>
-                                        <img class="d-block w-100" src="../../../assets/images/upload/insurance-benefits-img-01.jpg" alt="First slide">
-                                    </a>
-                                </div>
-                                <div class="carousel-item">
-                                    <a href="../../../assets/images/upload/insurance-benefits-img-02.jpg" data-fancybox="benefits-gallery" data-caption="Rhoncus Congue Lacus">
-                                        <div class="gallery-slides-hover"></div>
-                                        <img class="d-block w-100" src="../../../assets/images/upload/insurance-benefits-img-02.jpg" alt="Second slide">
-                                    </a>
-                                </div>
-                                <div class="carousel-item">
-                                    <a href="../../../assets/images/upload/insurance-benefits-img-03.jpg" data-fancybox="benefits-gallery" data-caption="Fuspendisse Nec Mattis">
-                                        <div class="gallery-slides-hover"></div>
-                                        <img class="d-block w-100" src="../../../assets/images/upload/insurance-benefits-img-03.jpg" alt="Third slide">
-                                    </a>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselIndicatorsCircle" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselIndicatorsCircle" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-
-                        <h2 class="h1 section-title-3 text-left font-weight-800">Plan For The Future</h2>
-
-                        <div class="lead-sm pt-2">
-                            Cras aliquet condimentum nec vitae convallis fusce sapien malesuada consequat lectus sagittis euismod iaculis interdum dolor
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div data-height="90px"></div>
-
-            </div>
-        </div>
-
-        <div class="bg-light">
-
-            <!-- Subscribe section -->
-            <div class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="bg-indigo rounded-ultra shadow-lg px-4 py-5 p-md-5 mt-up100">
-                                <div class="row my-4">
-                                    <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                                        <div class="text-center">
-
-                                            <h2 class="h1 text-white font-weight-800">Subscribe to Our Newsletter</h2>
-
-                                            <div class="lead-sm text-white-75 mb-5">
-                                                Mauris porttitor neque massa aliquam laoreet diam ipsum rutrum
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-lg-10 offset-lg-1">
-                                                    <form class="form-light-2 px-md-4 mb-1">
-                                                        <div class="input-group input-group-lg input-group-round">
-                                                            <div class="input-group-inner">
-                                                                <input type="email" class="form-control form-control-lg" placeholder="Your email address">
-                                                                <div class="input-group-append">
-                                                                    <button class="btn btn-lg btn-round btn-light shadow-none text-indigo mb-0" type="button">Subscribe Now</button>
-                                                                </div>
-                                                                <div class="input-focus-bg"></div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Benefits section -->
-            <div class="section py-5">
-                <div class="container">
-
-                    <div class="row my-5">
-                        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                            <div class="text-center mt-2 mb-4">
-                                <h2 class="h1 section-title-3 font-weight-800">Trust In Our Skills</h2>
-                                <div class="lead-sm pt-2">
-                                    Aliquam tristique sapien odio mollis massa imperdiet donec ac massa vitae ipsum aliquam consectetur mattis dolor amet dolor aliquam mattis orci nec ipsum congue
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row align-items-xl-center pb-4 mb-5">
-
-                        <div class="col-lg-6">
-                            <div class="card lightbox-video d-block border-0 rounded-xl shadow-lg text-center mb-5 mb-lg-0">
-
-                                <img class="card-img rounded-xl" src="../../../assets/images/upload/insurance-why-us-video-cover.jpg" alt="image">
-
-                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
-
-                                    <a data-fancybox href="https://www.youtube.com/watch?v=QGAMTlI6XxY" class="play-btn play-btn-hover-animate">
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100px" width="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-                                            <path class="play-stroke" fill="none" stroke="#fff" d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7C97.3,23.7,75.7,2.3,49.9,2.5"/>
-                                            <path class="play-icon" fill="#fff" d="M39.855,36.68c0-2.2,1.559-3.1,3.464-2L66.39,48c1.905,1.1,1.905,2.9,0,4l-23.071,13.32c-1.905,1.1-3.464,0.2-3.464-2L39.855,36.68z"/>
-                                        </svg>
-                                    </a>
-
-                                    <div class="lightbox-video-overlay"></div>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="pl-lg-4 pl-xl-5">
-
-                                <blockquote class="blockquote-2 border-left mb-5">
-                                    <p class="mb-0">Donec ipsum dolor sit nare neca ectetur adipiscine arcu rutrum gravida.</p>
-                                </blockquote>
-
-                                <div class="pt-3">
-                                    <div class="progress-label font-weight-600 text-uppercase"><span>Growing Companies</span><span class="progress-count float-right">80%</span></div>
-                                    <div class="progress progress-thin mb-4">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <div data-height="20px"></div>
-
-                                    <div class="progress-label font-weight-600 text-uppercase"><span>Positive Solutions</span><span class="progress-count float-right">90%</span></div>
-                                    <div class="progress progress-thin mb-4">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <div data-height="20px"></div>
-
-                                    <div class="progress-label font-weight-600 text-uppercase"><span>Satisfied Customers</span><span class="progress-count float-right">80%</span></div>
-                                    <div class="progress progress-thin mb-4">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Pricing and plans section -->
-        <div class="section py-5 bg-image" data-img-src="../../../assets/images/upload/insurance-pricing-bg-image.jpg">
-            <div class="container">
-
-                <div class="row my-5">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="text-center my-3">
-
-                            <h5 class="font-weight-400 text-white">Insurances Do Matter</h5>
-
-                            <div data-height="3px"></div>
-
-                            <h2 class="h1 section-title-3 title-light-1 font-weight-800">Pricing & Plans</h2>
-
-                            <div class="lead-sm text-white-75 pt-2">
-                                Pellentesque et justo purus donec eget est commodo suscipit est tempor blandit nulla enim vulputate in varius tincidunt ut massa magna rhoncus et orci eget lacinia mattis
-                            </div>
-
-                            <div data-height="40px"></div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
+        <!-- Products section -->
         <div class="section pb-5 bg-light">
             <div class="container">
+
+                <div class="bg-transparent" data-height="4px"></div>
+
+                <div class="row no-gutters">
+                    <div class="col shadow-lg overflow-hidden mt-up75">
+                        <div class="row no-gutters">
+
+                            <div class="col-lg-6 bg-dark p-4 px-md-5">
+
+                                <div data-height="20px"></div>
+
+                                <div class="icon-info-1">
+                                    <a class="icon-info-link" href="#">
+                                        <div class="icon-element">
+                                            <img src="../../../assets/svg/upload/contact-icon-01.svg" alt="icon" class="img-fluid add-animate fast" data-animated="zoomIn" data-width="48px" data-height="48px">
+                                        </div>
+                                        <div class="icon-info-text text-white-50 pl-4">
+                                            <h4 class="font-weight-700 text-white mb-1">349 Linden Avenue, FL</h4>
+                                            <p class="mb-0">Cursus nunc commodo fusce vestibulum</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-height="19px"></div>
+
+                            </div>
+        
+                            <div class="col-lg-6 bg-white p-4 px-md-5">
+
+                                <div data-height="20px"></div>
+
+                                <div class="icon-info-1">
+                                    <a class="icon-info-link" href="#">
+                                        <div class="icon-element">
+                                            <img src="../../../assets/svg/upload/contact-icon-02.svg" alt="icon" class="img-fluid add-animate fast" data-animated="zoomIn" data-width="48px" data-height="48px">
+                                        </div>
+                                        <div class="icon-info-text pl-4">
+                                            <h4 class="font-weight-700 mb-1">Call Us 1-557-846-9057</h4>
+                                            <p class="mb-0">Nunc tincidunt dolor cursus orci maximus</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-height="19px"></div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div data-height="30px"></div>
+
+                <div class="row my-5">
+                    <div class="col">
+                        <h2 class="h1 section-title-3 text-center font-weight-800 mt-4 mb-2">
+                            New Products
+                        </h2>
+                    </div>
+                </div>
+
                 <div class="row mb-5">
 
-                    <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0 mt-up75">
-                        <div class="card card-price-table border-0 shadow-lg rounded-xl text-center">
-                            <div class="card-body">
-                                <div class="card-price d-flex justify-content-center mt-3">
-                                    <div class="currency align-self-start">$</div>
-                                    <div class="price text-indigo">359</div>
-                                    <div class="term align-self-end">/ year</div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="bg-white shadow mb-5 mb-lg-0">
+
+                            <div class="hover-item hover-flip-img">
+                                <a href="#">
+                                    <figure class="img-front">
+                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-product-01.jpg" alt="image">
+                                    </figure>
+                                    <figure>
+                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-product-01-flip.jpg" alt="image">
+                                    </figure>
+                                </a>
+                            </div>
+
+                            <div class="text-center p-4">
+                                <h5 class="font-weight-700 mt-2">
+                                    <a href="#" class="text-dark-gray">Fusce Sem Massa</a>
+                                </h5>
+                                <h6 class="font-weight-400 font-italic mb-2">
+                                    <del class="mr-2 text-black-25">$290</del><span class="text-carrot">$200</span>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="bg-white shadow mb-5 mb-lg-0">
+
+                            <div class="hover-item hover-flip-img">
+                                <a href="#">
+                                    <figure class="img-front">
+                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-product-02.jpg" alt="image">
+                                    </figure>
+                                    <figure>
+                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-product-02-flip.jpg" alt="image">
+                                    </figure>
+                                </a>
+                            </div>
+
+                            <div class="text-center p-4">
+                                <h5 class="font-weight-700 mt-2">
+                                    <a href="#" class="text-dark-gray">Lacinia Nec Dolor</a>
+                                </h5>
+                                <h6 class="font-weight-400 font-italic mb-2">
+                                    <del class="mr-2 text-black-25">$240</del><span class="text-carrot">$220</span>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="bg-white shadow mb-5 mb-md-0">
+
+                            <div class="hover-item hover-flip-img">
+                                <a href="#">
+                                    <figure class="img-front">
+                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-product-03.jpg" alt="image">
+                                    </figure>
+                                    <figure>
+                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-product-03-flip.jpg" alt="image">
+                                    </figure>
+                                </a>
+                            </div>
+
+                            <div class="text-center p-4">
+                                <h5 class="font-weight-700 mt-2">
+                                    <a href="#" class="text-dark-gray">Risus In Conubia</a>
+                                </h5>
+                                <h6 class="font-weight-400 font-italic mb-2">
+                                    <del class="mr-2 text-black-25">$340</del><span class="text-carrot">$290</span>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="bg-white shadow">
+
+                            <div class="hover-item hover-flip-img">
+                                <a href="#">
+                                    <figure class="img-front">
+                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-product-04.jpg" alt="image">
+                                    </figure>
+                                    <figure>
+                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-product-04-flip.jpg" alt="image">
+                                    </figure>
+                                </a>
+                            </div>
+
+                            <div class="text-center p-4">
+                                <h5 class="font-weight-700 mt-2">
+                                    <a href="#" class="text-dark-gray">Aenean Duis Nunc</a>
+                                </h5>
+                                <h6 class="font-weight-400 font-italic mb-2">
+                                    <del class="mr-2 text-black-25">$450</del><span class="text-carrot">$390</span>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div data-height="40px"></div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <div class="text-center">
+                            <a href="#" class="btn btn-lg btn-round btn-indigo mb-4"><i class="fas fa-biking"></i>View all products</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Highlight section -->
+        <div class="section">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+
+                    <div class="col-xl-4">
+                        <div class="row no-gutters">
+
+                            <div class="col-md-6 col-xl-12">
+                                <div class="card d-block border-0 rounded-0 bg-secondary text-center mb-0">
+                                    <img class="card-img rounded-0" src="../../../assets/images/upload/bike-sport-highlight-cover.png" alt="image">
+                                    <div class="card-img-overlay d-flex align-items-center px-4 py-5 p-md-5">
+                                        <div class="w-100">
+                                            <h2 class="font-weight-800 text-white line-height-sm mb-4 mb-lg-5">Up To 70% Off<br>Collection For Bike</h2>
+                                            <a href="#" class="btn btn-lg btn-round btn-dark mb-0"><i class="fas fa-tags"></i>Get discount</a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <h5 class="card-price-title text-uppercase"><i class="fas fa-paper-plane text-indigo"></i>Standard</h5>
-                                <ul class="card-price-list">
-                                    <li>Lorem ipsum dolor</li>
-                                    <li>Aliquam ullamcorper</li>
-                                    <li>Maecenas rutrum nunc</li>
-                                    <li>Vestibulum porta</li>
-                                    <li>Morbi nunc pretium</li>
-                                </ul>
-                                <a href="#" role="button" class="btn btn-indigo btn-lg btn-round mb-4">Get a Quote</a>
+                            </div>
+
+                            <div class="col-md-6 col-xl-12">
+                                <img src="../../../assets/images/upload/bike-sport-highlight-02.jpg" alt="image" class="w-100">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 d-flex align-items-center p-5 bg-image" data-img-src="../../../assets/images/upload/bike-sport-highlight-01.jpg">
+                        <div class="w-100 text-center px-md-5 px-xl-2">
+
+                            <div class="d-none d-md-block d-xl-none" data-height="15vw"></div>
+
+                            <h2 class="font-weight-800 section-title-3 title-light-2 text-center text-white line-height-sm mb-4">Time To Ride a Bike</h2>
+
+                            <div class="lead-sm text-white pt-2">
+                                Pretium purus eget cursus molestie nec condimentum pulvinar maecenas neque aliquam porttitor ornare
+                            </div>
+
+                            <div class="d-none d-md-block d-xl-none" data-height="15vw"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="row no-gutters">
+
+                            <div class="col-md-6 col-xl-12">
+                                <img src="../../../assets/images/upload/bike-sport-highlight-03.jpg" alt="image" class="w-100">
+                            </div>
+
+                            <div class="col-md-6 col-xl-12">
+                                <div class="card d-block border-0 rounded-0 bg-dark text-center mb-0">
+                                    <img class="card-img rounded-0" src="../../../assets/images/upload/bike-sport-highlight-cover.png" alt="image">
+                                    <div class="card-img-overlay d-flex align-items-center px-4 py-5 p-md-5">
+                                        <div class="w-100">
+                                            <h2 class="font-weight-800 text-white line-height-sm mb-4 mb-lg-5">Get 25% Off For<br>Part & Accessories</h2>
+                                            <a href="#" class="btn btn-lg btn-round btn-secondary btn-gray-shadow mb-0"><i class="fas fa-tags"></i>Get discount</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Number counter section -->
+        <div class="section py-5 bg-image" data-img-src="../../../assets/images/upload/bike-sport-counter-bg.jpg">
+            <div class="container">
+                <div class="row pt-4 pb-3 my-5">
+                    
+                    <div class="col-md-6 col-xl-3 mb-5 mb-xl-0">
+                        <div class="num-counter">
+                            <h2 class="count-value count-run display-4 font-weight-800 text-center text-white mb-4">750</h2>
+                            <div class="icon-info-3">
+                                <div class="icon-title d-flex justify-content-center align-items-end mb-2">
+                                    <img src="../../../assets/svg/upload/counter-icon-01.svg" alt="icon" class="mr-2" data-width="34px" data-height="34px">
+                                    <h4 class="mb-0 text-white font-weight-700">Happy Customers</h4>
+                                </div>
+                                <div class="text-center text-white-75">
+                                    <p>Vestibulum ante ipsum primis</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0 mt-lg-up75">
-                        <div class="card card-price-table border-0 shadow-lg rounded-xl text-center text-white-75 bg-indigo">
-                            <div class="card-body">
-                                <div class="card-price d-flex justify-content-center mt-3">
-                                    <div class="currency align-self-start text-white-75">$</div>
-                                    <div class="price text-white">759</div>
-                                    <div class="term align-self-end">/ year</div>
+                    <div class="col-md-6 col-xl-3 mb-5 mb-xl-0">
+                        <div class="num-counter">
+                            <h2 class="count-value count-run display-4 font-weight-800 text-center text-white mb-4">927</h2>
+                            <div class="icon-info-3">
+                                <div class="icon-title d-flex justify-content-center align-items-end mb-2">
+                                    <img src="../../../assets/svg/upload/counter-icon-05.svg" alt="icon" class="mr-2" data-width="34px" data-height="34px">
+                                    <h4 class="mb-0 text-white font-weight-700">Quality Products</h4>
                                 </div>
-                                <h5 class="card-price-title text-uppercase text-white"><i class="fas fa-rocket text-white"></i>Premium</h5>
-                                <ul class="card-price-list">
-                                    <li>Lorem ipsum dolor</li>
-                                    <li>Aliquam ullamcorper</li>
-                                    <li>Maecenas rutrum nunc</li>
-                                    <li>Vestibulum porta</li>
-                                    <li>Morbi nunc pretium</li>
-                                </ul>
-                                <a href="#" role="button" class="btn btn-light btn-lg btn-round btn-gray-shadow text-indigo mb-4">Get a Quote</a>
+                                <div class="text-center text-white-75">
+                                    <p>Fusce sem massa congue vitae</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0 mt-lg-up75">
-                        <div class="card card-price-table border-0 shadow-lg rounded-xl text-center">
-                            <div class="card-body">
-                                <div class="card-price d-flex justify-content-center mt-3">
-                                    <div class="currency align-self-start">$</div>
-                                    <div class="price text-indigo">979</div>
-                                    <div class="term align-self-end">/ year</div>
+                    <div class="col-md-6 col-xl-3 mb-5 mb-md-0">
+                        <div class="num-counter">
+                            <h2 class="count-value count-run display-4 font-weight-800 text-center text-white mb-4">450</h2>
+                            <div class="icon-info-3">
+                                <div class="icon-title d-flex justify-content-center align-items-end mb-2">
+                                    <img src="../../../assets/svg/upload/counter-icon-06.svg" alt="icon" class="mr-2" data-width="34px" data-height="34px">
+                                    <h4 class="mb-0 text-white font-weight-700">Service Locations</h4>
                                 </div>
-                                <h5 class="card-price-title text-uppercase"><i class="fas fa-gem text-indigo"></i>Diamond</h5>
-                                <ul class="card-price-list">
-                                    <li>Lorem ipsum dolor</li>
-                                    <li>Aliquam ullamcorper</li>
-                                    <li>Maecenas rutrum nunc</li>
-                                    <li>Vestibulum porta</li>
-                                    <li>Morbi nunc pretium</li>
-                                </ul>
-                                <a href="#" role="button" class="btn btn-indigo btn-lg btn-round mb-4">Get a Quote</a>
+                                <div class="text-center text-white-75">
+                                    <p>Consequat eu dolor nulla eget</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-xl-3">
+                        <div class="num-counter">
+                            <h2 class="count-value count-run display-4 font-weight-800 text-center text-white mb-4">552</h2>
+                            <div class="icon-info-3">
+                                <div class="icon-title d-flex justify-content-center align-items-end mb-2">
+                                    <img src="../../../assets/svg/upload/counter-icon-07.svg" alt="icon" class="mr-2" data-width="34px" data-height="34px">
+                                    <h4 class="mb-0 text-white font-weight-700">Ride Events</h4>
+                                </div>
+                                <div class="text-center text-white-75">
+                                    <p>Aliquam odio posuere lobortis</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1026,438 +840,550 @@
             </div>
         </div>
 
-        <!-- Team member section -->
-        <div class="section py-5">
+        <!-- Testimonials section -->
+        <div class="section py-5 bg-image" data-img-src="../../../assets/images/upload/bike-sport-testimonials-bg.jpg">
             <div class="container">
-
+                
                 <div class="row my-5">
                     <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                        <div class="text-center mt-2 mb-4">
-                            <h2 class="h1 section-title-3 font-weight-800">Our Expert Team</h2>
+                        <div class="text-center my-4">
+                            <h2 class="h1 section-title-3 font-weight-800 text-center mb-4">What Clients Say</h2>
                             <div class="lead-sm pt-2">
-                                Scelerisque neque mollis fusce luctus blandit augue sit amet molestie curabitur placera nunc commodo nec pellentesque mollis aliquam et justo purus donec consequa
+                                Vestibulum convallis eu arcu molestie sem massa scelerisque fuspendisse ac neque rhoncus consequat ullamcorper molestie viverra erat aliquam dui odio efficitur
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row pb-4 mb-5">
-
-                    <div class="col-lg-6">
-                        <div class="pr-2 mb-5 mb-lg-0 text-center text-md-left">
-                            <img class="img-fluid rounded-xl shadow-sm mb-4" src="../../../assets/images/upload/team-member-08.jpg" alt="image">
-                            <h5 class="font-weight-700 pt-3 mb-2">Kirstin Adams</h5>
-                            <div class="font-italic mb-4"><small>Actuarial Manager</small></div>
-                            <p>Fusce adipiscing neque rutrum pretium ac phasellus viverra arcu semper quis placerat dolor molestie magna pulvinar consequa</p>
-                            <div class="d-flex justify-content-center justify-content-md-start pt-2 ml-n2">
-                                <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-twitter"></i></a>
-                                <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-instagram"></i></a>
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="px-3">
+                            <div class="carousel-component mb-4" data-carousel-gutter="40" data-autoplay="true" data-dots="true" data-nav="true" data-carousel-col="1" data-carousel-col-sm="1" data-carousel-col-md="1" data-carousel-col-lg="2" data-carousel-col-xl="2">
+                                <div class="carousel-component-inner owl-carousel owl-theme">
+                                
+                                    <div class="carousel-component-item">
+                                        <div class="testimonial-1 testimonial-light-2 mb-4">
+                                            <div class="testimonial-image">
+                                                <figure>
+                                                    <img class="img-fluid" src="../../../assets/images/upload/testimonial-thumbnail-9.jpg" alt="testimonial">
+                                                </figure>
+                                            </div>
+                                            <div class="testimonial-details">
+                                                <div class="font-italic">
+                                                    <p>Condimetum tricies enim adipiscing neque at rutrum imperdiet enim tristique malesuada mattis.</p>
+                                                </div>
+                                                <div class="tesimonial-name font-weight-700">
+                                                    Bruce Romero
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="carousel-component-item">
+                                        <div class="testimonial-1 testimonial-light-2 mb-4">
+                                            <div class="testimonial-image">
+                                                <figure>
+                                                    <img class="img-fluid" src="../../../assets/images/upload/testimonial-thumbnail-10.jpg" alt="testimonial">
+                                                </figure>
+                                            </div>
+                                            <div class="testimonial-details">
+                                                <div class="font-italic">
+                                                    <p>Nullam lectus neque, imperdiet fringilla purus mattis consequat mauris curabitur pellentesque.</p>
+                                                </div>
+                                                <div class="tesimonial-name font-weight-700">
+                                                    Charles Brown
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="carousel-component-item">
+                                        <div class="testimonial-1 testimonial-light-2 mb-4">
+                                            <div class="testimonial-image">
+                                                <figure>
+                                                    <img class="img-fluid" src="../../../assets/images/upload/testimonial-thumbnail-11.jpg" alt="testimonial">
+                                                </figure>
+                                            </div>
+                                            <div class="testimonial-details">
+                                                <div class="font-italic">
+                                                    <p>Cras lectus lacus, tristique at vestibulum nec dolor cursus purus integer nec arcu vel ornare.</p>
+                                                </div>
+                                                <div class="tesimonial-name font-weight-700">
+                                                    Daniel Jones
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-6">
-                        <div class="pl-2">
-
-                            <div class="row align-items-xl-center text-center text-md-left mb-5">
-                                <div class="col-md-4 mb-5 mb-md-0">
-                                    <img src="../../../assets/images/upload/team-member-09.jpg" alt="image" class="img-fluid rounded-xl shadow-sm">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="pl-md-1">
-                                        <h5 class="font-weight-700 pt-2 mb-1">James Fraser</h5>
-                                        <div class="font-italic mb-3"><small>Actuarial Analyst</small></div>
-                                        <p>Mauris pulvinar metus sed nibh iaculis congue lacus ultrices vestibulum ac consequat sapien</p>
-                                        <div class="d-flex justify-content-center justify-content-md-start pt-2 ml-n2">
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-twitter"></i></a>
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row align-items-xl-center text-center text-md-left mb-5">
-                                <div class="col-md-4 mb-5 mb-md-0">
-                                    <img src="../../../assets/images/upload/team-member-10.jpg" alt="image" class="img-fluid rounded-xl shadow-sm">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="pl-md-1">
-                                        <h5 class="font-weight-700 pt-2 mb-1">Sandra Gibson</h5>
-                                        <div class="font-italic mb-3"><small>Actuarial Analyst</small></div>
-                                        <p>Quis interdum tortor tincidunt nisl amet egestas luctus donec nibh in nibh fermentum</p>
-                                        <div class="d-flex justify-content-center justify-content-md-start pt-2 ml-n2">
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-twitter"></i></a>
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row align-items-xl-center text-center text-md-left">
-                                <div class="col-md-4 mb-5 mb-md-0">
-                                    <img src="../../../assets/images/upload/team-member-11.jpg" alt="image" class="img-fluid rounded-xl shadow-sm">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="pl-md-1">
-                                        <h5 class="font-weight-700 pt-2 mb-1">Robert Smith</h5>
-                                        <div class="font-italic mb-3"><small>Actuarial Associate</small></div>
-                                        <p>Volutpat pellentesque sed metus fusce iaculis quam nisl elementum est hendrerit in nullam</p>
-                                        <div class="d-flex justify-content-center justify-content-md-start pt-2 ml-n2">
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-twitter"></i></a>
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-dark" data-width="36px" data-height="36px"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
 
-                <div data-height="85px"></div>
+            </div>
+        </div>
+
+        <!-- News section -->
+        <div class="section py-5">
+            <div class="container">
+                
+                <div class="row my-5">
+                    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <div class="text-center my-4">
+                            <h2 class="h1 section-title-3 font-weight-800 text-center mb-4">News & Events</h2>
+                            <div class="lead-sm pt-2">
+                                Risus quis malesuada luctus neca semper vehicula ligula et dignissim lectus in sem efficitur malesuada varius urna dictum eros vulputate sem in natoque penatibus
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="px-3">
+
+                            <!-- Blog carousel -->
+                            <div class="carousel-component" data-carousel-gutter="30" data-autoplay="true" data-dots="true" data-nav="true" data-carousel-col="1" data-carousel-col-sm="1" data-carousel-col-md="2" data-carousel-col-lg="3" data-carousel-col-xl="3">
+                                <div class="carousel-component-inner owl-carousel owl-theme">
+                                
+                                    <!-- Blog carousel item -->
+                                    <div class="carousel-component-item">
+                                        <div class="card card-blog-entry border-0 plain-card rounded-0 mb-2">
+                                            <div class="card-blog-img rounded-0 hover-item hover-scale hover-uncaption">
+                                                <a href="#">
+                                                    <div class="hover-transition">
+                                                        <div class="hover-down">
+                                                            <i class="fas fa-link fa-2x hover-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <figure>
+                                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-blog-thumbnail-01.jpg" alt="Blog">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <div class="category-btn">
+                                                    <a href="#" class="btn btn-round btn-sm btn-indigo">Bike Sport</a>
+                                                </div>
+                                                <h5 class="card-title font-weight-700 mt-3">
+                                                    <a href="#" class="text-dark-gray">Maecenas aenean dictum</a>
+                                                </h5>
+                                                <ul class="meta-entry">
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">14 Sep 2020</a>
+                                                    </li>
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">John Davis</a>
+                                                    </li>
+                                                </ul>
+                                                <p class="card-text">Fusce vulputate congue in bibendum fermentum ligula id lobortis semper mi efficitur nibh</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Blog carousel item -->
+                                    <div class="carousel-component-item">
+                                        <div class="card card-blog-entry border-0 plain-card rounded-0 mb-2">
+                                            <div class="card-blog-img rounded-0 hover-item hover-scale hover-uncaption">
+                                                <a href="#">
+                                                    <div class="hover-transition">
+                                                        <div class="hover-down">
+                                                            <i class="fas fa-link fa-2x hover-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <figure>
+                                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-blog-thumbnail-02.jpg" alt="Blog">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <div class="category-btn">
+                                                    <a href="#" class="btn btn-round btn-sm btn-secondary">Bike Repair</a>
+                                                </div>
+                                                <h5 class="card-title font-weight-700 mt-3">
+                                                    <a href="#" class="text-dark-gray">Malesuada cras consequa</a>
+                                                </h5>
+                                                <ul class="meta-entry">
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">14 Sep 2020</a>
+                                                    </li>
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">John Davis</a>
+                                                    </li>
+                                                </ul>
+                                                <p class="card-text">Ornare ipsum enim eu nam tristique cursus tempus aenean nec dolor rhoncus lobortis mattis</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Blog carousel item -->
+                                    <div class="carousel-component-item">
+                                        <div class="card card-blog-entry border-0 plain-card rounded-0 mb-2">
+                                            <div class="card-blog-img rounded-0 hover-item hover-scale hover-uncaption">
+                                                <a href="#">
+                                                    <div class="hover-transition">
+                                                        <div class="hover-down">
+                                                            <i class="fas fa-link fa-2x hover-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <figure>
+                                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-blog-thumbnail-03.jpg" alt="Blog">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <div class="category-btn">
+                                                    <a href="#" class="btn btn-round btn-sm btn-indigo">Bike Sport</a>
+                                                </div>
+                                                <h5 class="card-title font-weight-700 mt-3">
+                                                    <a href="#" class="text-dark-gray">Rhoncus dolor malesuada</a>
+                                                </h5>
+                                                <ul class="meta-entry">
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">14 Sep 2020</a>
+                                                    </li>
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">John Davis</a>
+                                                    </li>
+                                                </ul>
+                                                <p class="card-text">Mollis euismod est id malesuada vel suspendisse odio sagittis, vulputate ligula in sodales</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Blog carousel item -->
+                                    <div class="carousel-component-item">
+                                        <div class="card card-blog-entry border-0 plain-card rounded-0 mb-2">
+                                            <div class="card-blog-img rounded-0 hover-item hover-scale hover-uncaption">
+                                                <a href="#">
+                                                    <div class="hover-transition">
+                                                        <div class="hover-down">
+                                                            <i class="fas fa-link fa-2x hover-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <figure>
+                                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-blog-thumbnail-04.jpg" alt="Blog">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <div class="category-btn">
+                                                    <a href="#" class="btn btn-round btn-sm btn-indigo mr-1">Bike Sport</a>
+                                                    <a href="#" class="btn btn-round btn-sm btn-rose">Outdoor</a>
+                                                </div>
+                                                <h5 class="card-title font-weight-700 mt-3">
+                                                    <a href="#" class="text-dark-gray">Pharetra nam interdum</a>
+                                                </h5>
+                                                <ul class="meta-entry">
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">14 Sep 2020</a>
+                                                    </li>
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">John Davis</a>
+                                                    </li>
+                                                </ul>
+                                                <p class="card-text">Facilisis libero volutpat molestie curabitur rutrum accumsan, sit amet sollicitudin pulvinar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Blog carousel item -->
+                                    <div class="carousel-component-item">
+                                        <div class="card card-blog-entry border-0 plain-card rounded-0 mb-2">
+                                            <div class="card-blog-img rounded-0 hover-item hover-scale hover-uncaption">
+                                                <a href="#">
+                                                    <div class="hover-transition">
+                                                        <div class="hover-down">
+                                                            <i class="fas fa-link fa-2x hover-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <figure>
+                                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-blog-thumbnail-05.jpg" alt="Blog">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <div class="category-btn">
+                                                    <a href="#" class="btn btn-round btn-sm btn-secondary">Bike Repair</a>
+                                                </div>
+                                                <h5 class="card-title font-weight-700 mt-3">
+                                                    <a href="#" class="text-dark-gray">Nulla bibendum quam</a>
+                                                </h5>
+                                                <ul class="meta-entry">
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">14 Sep 2020</a>
+                                                    </li>
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">John Davis</a>
+                                                    </li>
+                                                </ul>
+                                                <p class="card-text">Vivamus egestas faucibus vitae vestibulum auctor hendrerit massa quis sem quam donec</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Blog carousel item -->
+                                    <div class="carousel-component-item">
+                                        <div class="card card-blog-entry border-0 plain-card rounded-0 mb-2">
+                                            <div class="card-blog-img rounded-0 hover-item hover-scale hover-uncaption">
+                                                <a href="#">
+                                                    <div class="hover-transition">
+                                                        <div class="hover-down">
+                                                            <i class="fas fa-link fa-2x hover-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <figure>
+                                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-blog-thumbnail-06.jpg" alt="Blog">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <div class="category-btn">
+                                                    <a href="#" class="btn btn-round btn-sm btn-secondary">Bike Repair</a>
+                                                </div>
+                                                <h5 class="card-title font-weight-700 mt-3">
+                                                    <a href="#" class="text-dark-gray">Aenean lacinia sapien</a>
+                                                </h5>
+                                                <ul class="meta-entry">
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">14 Sep 2020</a>
+                                                    </li>
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">John Davis</a>
+                                                    </li>
+                                                </ul>
+                                                <p class="card-text">Morbi ut urna nec nunc pretium iaculis duis porta dictum tortor lectus quis volutpat eros</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Blog carousel item -->
+                                    <div class="carousel-component-item">
+                                        <div class="card card-blog-entry border-0 plain-card rounded-0 mb-2">
+                                            <div class="card-blog-img rounded-0 hover-item hover-scale hover-uncaption">
+                                                <a href="#">
+                                                    <div class="hover-transition">
+                                                        <div class="hover-down">
+                                                            <i class="fas fa-link fa-2x hover-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <figure>
+                                                        <img class="img-fluid" src="../../../assets/images/upload/bike-sport-blog-thumbnail-07.jpg" alt="Blog">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <div class="category-btn">
+                                                    <a href="#" class="btn btn-round btn-sm btn-indigo">Bike Sport</a>
+                                                </div>
+                                                <h5 class="card-title font-weight-700 mt-3">
+                                                    <a href="#" class="text-dark-gray">Quis etiam neca libero</a>
+                                                </h5>
+                                                <ul class="meta-entry">
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">14 Sep 2020</a>
+                                                    </li>
+                                                    <li class="meta-entry-item">
+                                                        <a href="#">John Davis</a>
+                                                    </li>
+                                                </ul>
+                                                <p class="card-text">Mollis tempor purus pellentesque lorem felis lectus faucibus fringilla ultrices ac pellentesque</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
 
         <!-- Call to action section -->
-        <div class="section pb-5 bg-image" data-img-src="../../../assets/images/upload/insurance-cta-bg.jpg">
+        <div class="section pt-5 bg-image" data-img-src="../../../assets/images/upload/bike-sport-cta-bg.jpg">
             <div class="container">
-                <div class="row">
+                <div class="row mt-5 mt-md-0">
                     <div class="col">
 
-                        <div class="bg-white rounded-ultra shadow-lg px-4 py-5 p-md-5 mt-up100 mb-5">
+                        <div class="d-none d-md-block" data-height="250px"></div>
 
-                            <div class="row my-4">
-                                <div class="col-md-10 offset-md-1 col-xl-8 offset-xl-2">
-                                    <div class="text-center mt-2 mb-4 my-md-4">
-                                        <h2 class="h1 section-title-3 font-weight-800 text-center">Request a Free Consultation</h2>
+                        <div class="bg-white shadow-lg px-4 py-5 p-md-5 mt-5 mt-md-0">
+
+                            <div class="row mt-4 mb-5">
+                                <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                                    <div class="text-center my-4">
+                                        <h2 class="h1 section-title-3 font-weight-800 text-center mb-4">Subscribe To Newsletter</h2>
                                         <div class="lead-sm pt-2">
-                                            Vestibulum convallis eu arcu molestie sem massa scelerisque fuspendisse ac neque rhoncus consequat ullamcorper molestie viverra erat aliquam dui odio efficitur
+                                            Aliquam tristique sapien odio in mollis massa imperdiet quis donec massa vitae fermentum aliquam consectetur sit amet dolor aliquam mattis orci ipsum congue
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="row mb-4">
-                                <div class="col-lg-10 offset-lg-1">
-                                    <form class="px-md-4 px-lg-0 px-xl-4">
-                                        <div class="form-row">
+                            <form class="px-md-5 mb-4">
+                                <div class="form-row">
 
-                                            <div class="col-lg-6">
-                                                <div class="px-1 pb-3 mb-3">
-                                                    <div class="input-group input-group-lg input-group-round">
-                                                        <div class="input-group-inner">
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text input-group-icon"><i class="far fa-user"></i></span>
-                                                            </div>
-                                                            <input type="text" class="form-control form-control-lg" placeholder="Your name">
-                                                            <div class="input-focus-bg"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6">
-                                                <div class="px-1 pb-3 mb-3">
-                                                    <div class="input-group input-group-lg input-group-round">
-                                                        <div class="input-group-inner">
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text input-group-icon"><i class="far fa-envelope"></i></span>
-                                                            </div>
-                                                            <input type="email" class="form-control form-control-lg" placeholder="Email address">
-                                                            <div class="input-focus-bg"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6">
-                                                <div class="px-1 mb-5">
-                                                    <div class="input-group input-group-lg input-group-round">
-                                                        <div class="input-group-inner">
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text input-group-icon"><i class="fas fa-mobile-alt"></i></span>
-                                                            </div>
-                                                            <input type="tel" class="form-control form-control-lg" placeholder="Phone number">
-                                                            <div class="input-focus-bg"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6">
-                                                <div class="px-1 mb-5">
-                                                    <div class="input-group input-group-lg input-group-round">
-                                                        <div class="input-group-inner">
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text input-group-icon"><i class="far fa-list-alt"></i></span>
-                                                            </div>
-                                                            <select class="custom-select custom-select-lg">
-                                                                <option selected>Select plan</option>
-                                                                <option value="1">Standard</option>
-                                                                <option value="2">Platinum</option>
-                                                                <option value="3">Diamond</option>
-                                                            </select>
-                                                            <div class="input-focus-bg"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 offset-lg-3">
-                                                <div class="px-1">
-                                                    <button type="submit" class="btn btn-lg btn-round btn-block btn-indigo">Send a Request</button>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <div class="px-1">
-                                                    <div class="form-group custom-control custom-checkbox text-center mt-2 mb-0 mb-md-3">
-                                                        <input type="checkbox" class="custom-control-input" id="registerCheck_2">
-                                                        <label class="custom-control-label" for="registerCheck_2">I agree to the <a href="#" target="_blank" class="text-dark-gray font-weight-600">Terms and Conditions</a>.</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-
+                                    <div class="col-lg-4">
+                                        <div class="px-1 mb-4 mb-lg-0">
+                                            <input class="form-control form-round form-control-lg" type="text" placeholder="Your name">
                                         </div>
-                                    </form>
-                                </div>
-                            </div>
+                                    </div>
 
-                        </div>
+                                    <div class="col-lg-4">
+                                        <div class="px-1 mb-4 mb-lg-0">
+                                            <input class="form-control form-round form-control-lg" type="email" placeholder="Your email address">
+                                        </div>
+                                    </div>
 
-                        <div class="row align-items-center py-4">
-                            <div class="col-6 col-md-4 col-lg-2">
-                                <div class="text-center px-2">
-                                    <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-01.svg" alt="brand">
+                                    <div class="col-lg-4">
+                                        <div class="px-1 mb-4 mb-lg-0">
+                                            <button type="submit" class="btn btn-lg btn-round btn-block btn-indigo">Subscribe Now!</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="px-2 mt-2 text-center">
+                                            <small class="form-text">Personal data will be encrypted.</small>
+                                            <div data-height="9px"></div>
+                                        </div>
+                                    </div>
+
                                 </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-2">
-                                <div class="text-center px-2">
-                                    <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-02.svg" alt="brand">
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-2">
-                                <div class="text-center px-2">
-                                    <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-03.svg" alt="brand">
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-2">
-                                <div class="text-center px-2">
-                                    <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-04.svg" alt="brand">
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-2">
-                                <div class="text-center px-2">
-                                    <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-05.svg" alt="brand">
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-2">
-                                <div class="text-center px-2">
-                                    <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-06.svg" alt="brand">
-                                </div>
-                            </div>
+                            </form>
+
                         </div>
 
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Brands section -->
+        <div class="section bg-indigo py-4 mt-up150">
+            <div class="container">
+
+                <div data-height="150px"></div>
+
+                <div class="row align-items-center py-4">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center px-2">
+                            <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-07.svg" alt="brand">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center px-2">
+                            <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-08.svg" alt="brand">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center px-2">
+                            <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-06.svg" alt="brand">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center px-2">
+                            <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-09.svg" alt="brand">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center px-2">
+                            <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-10.svg" alt="brand">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center px-2">
+                            <img class="img-fluid" src="../../../assets/svg/upload/brand-logo-white-11.svg" alt="brand">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
     </div>
 
     <!-- Footer -->
-    <div class="w-100 bg-viridian-500 text-white-50">
+    <div class="bg-viridian-500 text-white-50">
 
-        <div class="py-5">
+        <div class="py-3 bg-viridian-300">
             <div class="container">
-                <div class="row py-5">
+                <div class="row align-items-center py-3">
 
-                    <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="col-lg-8 text-center text-lg-left mb-4 mb-lg-0">
 
-                        <div class="widget">
+                        <div data-height="1px"></div>
 
-                            <img class="img-fluid d-block mb-4" src="../../../assets/svg/upload/logo-light.svg" alt="logo" data-width="146px" data-height="42px">
-
-                            <div data-height="5px"></div>
-
-                            <p>Mauris pulvinar metus sed nibh iaculis nec congue lacus ultrices vestibulum ac consequat sapien quis interdum tortor in tincidunt nisl sit amet egestas fermentum donec ut nibh eu nibh.</p>
-
+                        <div class="widget text-uppercase">
+                            <a href="#" class="text-white-75 text-hover-white font-weight-600 mx-3 ml-lg-0">Home</a>
+                            <a href="#" class="text-white-75 text-hover-white font-weight-600 mx-3">Features</a>
+                            <a href="#" class="text-white-75 text-hover-white font-weight-600 mx-3">Products</a>
+                            <a href="#" class="text-white-75 text-hover-white font-weight-600 mx-3">News</a>
+                            <a href="#" class="text-white-75 text-hover-white font-weight-600 mx-3">FAQ</a>
+                            <a href="#" class="text-white-75 text-hover-white font-weight-600 mx-3 mr-lg-0">Contact</a>
                         </div>
-
-                        <div class="row">
-                            <div class="col-md-8 col-lg-12">
-                                <div class="widget">
-
-                                    <h6 class="widget-title text-white text-uppercase font-weight-700">Subscribe</h6>
-
-                                    <form class="form-light-1">
-                                        <div class="input-group input-group-lg input-group-round">
-                                            <div class="input-group-inner">
-                                                <input type="email" class="form-control form-control-lg" placeholder="Your email address">
-                                                <div class="input-group-append">
-                                                    <button class="btn btn-lg btn-round btn-indigo shadow-none mb-0" type="button">Subscribe</button>
-                                                </div>
-                                                <div class="input-focus-bg"></div>
-                                            </div>
-                                        </div>
-                                        <small class="form-text mt-3">Personal data will be encrypted.</small>
-                                    </form>
-
-                                </div>
-                            </div>
-                        </div>
-
+                        
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="row">
-
-                            <div class="col-md-6 mb-5 mb-lg-0">
-                                <div class="widget">
-
-                                    <h6 class="widget-title text-white text-uppercase font-weight-700">Quick links</h6>
-
-                                    <ul class="custom-list fa-ul mb-0 ml-4">
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">Homepage</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">About Us</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">Services</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">FAQ</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">News & Event</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">Plans & Pricing</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">Contact Us</a>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 mb-5 mb-lg-0">
-                                <div class="widget">
-
-                                    <h6 class="widget-title text-white text-uppercase font-weight-700">Our Services</h6>
-
-                                    <ul class="custom-list fa-ul mb-0 ml-4">
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">Accounting</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">Consulting</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">Marketing</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">SEO Services</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">Programming</a>
-                                        </li>
-                                        <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                            <a href="#" class="text-white-50 text-hover-primary">Mobile App</a>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                            </div>
-
+                        <div class="d-flex justify-content-center justify-content-lg-end">
+                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-white" data-width="36px" data-height="36px"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-white" data-width="36px" data-height="36px"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-white" data-width="36px" data-height="36px"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-white" data-width="36px" data-height="36px"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-white" data-width="36px" data-height="36px"><i class="fab fa-vimeo-v"></i></a>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-
-                        <div class="widget">
-
-                            <h6 class="widget-title text-white text-uppercase font-weight-700">Get in touch</h6>
-
-                            <div class="row mb-3">
-
-                                <div class="col-2 col-lg-3 col-xl-2">
-                                    <span class="text-white font-weight-500">Address</span>
-                                </div>
-
-                                <div class="col-10 col-lg-9 col-xl-10">
-                                    <div class="pl-2">
-                                        2926 Kincheloe Road<br>Portland Oregon 97229
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="row mb-3">
-
-                                <div class="col-2 col-lg-3 col-xl-2">
-                                    <span class="text-white font-weight-500">Phone</span>
-                                </div>
-
-                                <div class="col-10 col-lg-9 col-xl-10">
-                                    <div class="pl-2">
-                                        1-407-587-6602<br>
-                                        1-557-846-9057
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-2 col-lg-3 col-xl-2">
-                                    <span class="text-white font-weight-500">Email</span>
-                                </div>
-
-                                <div class="col-10 col-lg-9 col-xl-10">
-                                    <div class="pl-2">
-                                        contact@domain.com
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="widget">
-
-                            <h6 class="widget-title text-white text-uppercase font-weight-700 mb-4">Follow Us</h6>
-
-                            <div class="d-flex ml-n2">
-                                <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-primary" data-width="36px" data-height="36px"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-primary" data-width="36px" data-height="36px"><i class="fab fa-twitter"></i></a>
-                                <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-primary" data-width="36px" data-height="36px"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-primary" data-width="36px" data-height="36px"><i class="fab fa-instagram"></i></a>
-                                <a href="#" target="_blank" class="d-flex align-items-center justify-content-center text-white-25 text-hover-primary" data-width="36px" data-height="36px"><i class="fab fa-vimeo-v"></i></a>
-                            </div>
-
-                        </div>
-
                     </div>
 
                 </div>
             </div>
         </div>
 
-        <div class="footer-bottom py-4">
+        <div class="container pt-5">
+            <div class="row py-4">
+
+                <div class="col-lg-8 mb-5 mb-lg-0">
+
+                    <div class="widget pr-lg-5">
+
+                        <img class="img-fluid d-block mb-4" src="../../../assets/svg/upload/logo-light.svg" alt="logo" data-width="146px" data-height="42px">
+
+                        <div data-height="5px"></div>
+
+                        <p>Mauris pulvinar metus sed nibh iaculis nec congue lacus ultrices ac vestibulum consequat sapien dolor interdum posuere in lobortis sit amet, consequat eu dolor nulla eget velit vitae diam quis placerat efficitur morbi fermentum dolor mollis bibendum dui <strong class="text-white">etiam vehicula semper</strong>.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="widget">
+
+                        <h6 class="widget-title text-white text-uppercase font-weight-700">Subscribe</h6>
+
+                        <form class="form-light-1">
+                            <div class="input-group input-group-lg input-group-round">
+                                <div class="input-group-inner">
+                                    <input type="email" class="form-control form-control-lg" placeholder="Your email address">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-lg btn-round btn-indigo shadow-none mb-0" type="button">Subscribe</button>
+                                    </div>
+                                    <div class="input-focus-bg"></div>
+                                </div>
+                            </div>
+                            <small class="form-text mt-3">Personal data will be encrypted.</small>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom footer-bottom-no-overlay py-4">
             <div class="container footer-bottom-container">
                 <div class="row py-3">
 
@@ -1466,8 +1392,8 @@
                     </div>
 
                     <div class="col-lg-6 text-center text-lg-right">
-                        <a href="#" class="text-white-50 text-hover-primary mr-4">Terms</a>
-                        <a href="#" class="text-white-50 text-hover-primary">Privacy Policy</a>
+                        <a href="#" class="text-white-50 text-hover-white mr-4">Terms</a>
+                        <a href="#" class="text-white-50 text-hover-white">Privacy Policy</a>
                     </div>
 
                 </div>
@@ -1480,7 +1406,7 @@
     <div class="go-to-top">
         <a href="#" class="rounded-circle"><i class="fas fa-chevron-up"></i></a>
     </div>
-
+    
     <!-- jQuery -->
     <script src="../../../assets/js/vendor/jquery-3.6.0.min.js"></script>
 
@@ -1496,10 +1422,10 @@
 
     <!-- Fancybox js -->
     <script src="../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
-
+    
     <!-- OWL carousel js -->
     <script src="../../../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-
+    
     <!-- Progress Circle js -->
     <script src="../../../node_modules/jquery-circle-progress/dist/circle-progress.min.js"></script>
 

@@ -66,11 +66,11 @@
     <!-- Hero banner -->
     <div class="d-flex flex-column w-100">
         <div class="page-header-block-height d-flex align-items-center bg-image py-5"
-             data-img-src="{{asset('images/2.png')}}">
+             data-img-src="{{asset('images/bannerL.jpg')}}">
             <div class="container">
                 <div class="row align-items-center">
 
-                    <div class="col-md-10 offset-md-1 col-lg-5 offset-lg-0">
+                    <div class="col-md-10  col-lg-8 ">
                         <div class="my-5 add-animate" data-animated="fadeIn">
                             <h2 class="h3 font-weight-300 text-white">{{--Milmind Holdings--}}</h2>
                             <h1 class="display-4 font-weight-800 text-white mb-5">{{--Pioneering Progress with Diverse
@@ -79,7 +79,7 @@
                         </div>
                     </div>
 
-                    <div style="background-color: #29235c;" class="col-md-10 offset-md-1 col-lg-5 offset-lg-2">
+                    <div class="col-md-10  col-lg-4">
                         <div class="pl-xl-5">
                             <div style="background-color: #3491c9;"
                                  class="{{--bg-indigo--}} text-white-75 rounded-ultra shadow-lg px-4 py-5 p-md-5 my-5">
@@ -204,14 +204,14 @@
 
                                 <div class="mb-5 add-animate" data-animated="fadeIn">
 
-                                    <h5 class="font-weight-400">Welcome to Milminds Holdings</h5>
+                                    <h5 class="font-weight-400">Welcome to Mil-Minds Holdings</h5>
 
                                     <div data-height="3px"></div>
 
                                     <h2 class="h1 section-title-3 text-left font-weight-800">About Us</h2>
 
                                     <div class="lead-sm pt-2">
-                                        Milminds Holdings emerges as a paragon of corporate synergy, an umbrella for
+                                        Mil-Minds Holdings emerges as a paragon of corporate synergy, an umbrella for
                                         distinct brands that together, form a tapestry of excellence and innovation. Our
                                         collective prowess spans from strategic business advisory to lifestyle and
                                         travel management, all while championing the principles of integrity and
@@ -226,7 +226,7 @@
                                         <h2 class="h1 section-title-3 text-left font-weight-800">Business
                                             Philosophy</h2>
                                         <div class="lead-sm pt-2">
-                                            At Milminds, we harmonize diversity with unity, allowing each entity's
+                                            At Mil-Minds, we harmonize diversity with unity, allowing each entity's
                                             unique offerings to amplify the others', weaving a strong fabric of
                                             end-to-end solutions that span multiple industries.
                                         </div>
@@ -270,7 +270,7 @@
                                             </div>
                                             <div class="info-box-btn">
                                                 <div class="info-box-btn-inner">
-                                                    <a href="#" class="btn btn-round btn-outline-light mt-4 mb-0">View
+                                                    <a href="{{route('advisory')}}" class="btn btn-round btn-outline-light mt-4 mb-0">View
                                                         Brand</a>
                                                 </div>
                                             </div>
@@ -292,7 +292,7 @@
                                             </div>
                                             <div class="info-box-btn">
                                                 <div class="info-box-btn-inner">
-                                                    <a href="#" class="btn btn-round btn-outline-light mt-4 mb-0">View
+                                                    <a href="{{route('cleaning-bees')}}" class="btn btn-round btn-outline-light mt-4 mb-0">View
                                                         Brand</a>
                                                 </div>
                                             </div>
@@ -313,7 +313,7 @@
                                             </div>
                                             <div class="info-box-btn">
                                                 <div class="info-box-btn-inner">
-                                                    <a href="#" class="btn btn-round btn-outline-light mt-4 mb-0">View
+                                                    <a href="{{route('colorful-expressions')}}" class="btn btn-round btn-outline-light mt-4 mb-0">View
                                                         Brand</a>
                                                 </div>
                                             </div>
@@ -334,7 +334,7 @@
                                             </div>
                                             <div class="info-box-btn">
                                                 <div class="info-box-btn-inner">
-                                                    <a href="#" class="btn btn-round btn-outline-light mt-4 mb-0">View
+                                                    <a href="{{route('fly-express')}}" class="btn btn-round btn-outline-light mt-4 mb-0">View
                                                         Brand</a>
                                                 </div>
                                             </div>
@@ -480,7 +480,7 @@
                         <h2 class="h1 section-title-3 text-left font-weight-800">Engage With Us</h2>
 
                         <div class="lead-sm pt-2">
-                            Join us on a voyage through Milminds Holdings' world, where each step is a leap towards
+                            Join us on a voyage through Mil-Minds Holdings' world, where each step is a leap towards
                             groundbreaking achievements and exemplary service delivery.
                         </div>
 

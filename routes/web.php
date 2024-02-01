@@ -14,13 +14,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
+
+Route::get('/advisory', function () {
+    return view('advisory');
+})->name('advisory');
+
+Route::get('/cleaning-bees', function () {
+    return view('cleaning_bees');
+})->name('cleaning-bees');
+
+Route::get('/colorful-expressions', function () {
+    return view('colorful_expressions');
+})->name('colorful-expressions');
+
+Route::get('/fly-express', function () {
+    return view('fly_express');
+})->name('fly-express');
+
+Route::get('/way-maker', function () {
+    return view('index');
+})->name('way-maker');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

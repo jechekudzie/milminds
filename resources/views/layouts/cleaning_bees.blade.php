@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="#">
-    <title>MILMINDS HOLDINGS</title>
+    <title>CLEANING BEES</title>
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="{{ asset('/node_modules/@fortawesome/fontawesome-free/css/all.min.css') }}">
@@ -70,9 +70,9 @@
         <div class="row align-items-center">
             <!-- Logo on the left -->
             <div class="col-6 col-md-6">
-                <a href="{{ url('/') }}">
-                    <img class="logo" src="{{ asset('/images/logo-holding-removebg-preview.png') }}" alt="Logo"
-                         style="height: 80px;"> <!-- Adjust the height as needed -->
+                <a href="{{ url('/cleaning-bees') }}">
+                    <img class="logo" src="{{ asset('/images/logos/logo-cleaning-removebg-preview.png') }}" alt="Logo"
+                         style="height: 100px;">
                 </a>
             </div>
 
@@ -99,10 +99,10 @@
 </div>
 
 <!-- Secondary Navigation menu -->
-<nav style="background-color: #3491c9;" class="navbar navbar-expand-lg navbar-dark {{--bg-secondary--}}">
+<nav style="background-color: #154070;" class="navbar navbar-expand-lg navbar-dark {{--bg-secondary--}}">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <a class="navbar-brand" href="{{ url('/') }}">{{-- Milminds Holdings--}}</a>
+        <a class="navbar-brand" href="{{ url('/') }}">{{--Mil-Minds Advisory--}}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecondary"
                 aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -113,25 +113,25 @@
             <!-- ... -->
             <ul class="navbar-nav {{--ml-auto--}}">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                    <a style="color: #ffdc1d;" class="nav-link" href="{{ url('/advisory') }}">Cleaning Bees</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#about') }}">About Us</a>
+                    <a style="color: #ffdc1d;" class="nav-link" href="{{ url('#about') }}">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#about') }}">Business Philosophy</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#brands') }}">Our Brands</a>
+                    <a style="color: #ffdc1d;" class="nav-link" href="{{ url('#services') }}">Our Services</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#why-choose-us') }}">Why Choose Us</a>
+                    <a style="color: #ffdc1d;" class="nav-link" href="{{ url('#why-choose-us') }}">Why Choose Us</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#contact-us') }}">Contact Us</a>
+                    <a style="color: #ffdc1d;" class="nav-link" href="{{ url('#call-to-action') }}">Call To Action</a>
+                </li>
+
+                <li class="nav-item">
+                    <a style="color: #ffdc1d;" class="nav-link" href="{{ url('#contact-us') }}">Contact Us</a>
                 </li>
                 <!-- More nav items here -->
             </ul>
