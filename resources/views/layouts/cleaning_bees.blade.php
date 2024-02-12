@@ -113,7 +113,7 @@
             <!-- ... -->
             <ul class="navbar-nav {{--ml-auto--}}">
                 <li class="nav-item">
-                    <a style="color: #ffdc1d;" class="nav-link" href="{{ url('/advisory') }}">Cleaning Bees</a>
+                    <a style="color: #ffdc1d;" class="nav-link" href="{{ url('/advisory') }}">Cleaning Bees Cleaning Services</a>
                 </li>
                 <li class="nav-item">
                     <a style="color: #ffdc1d;" class="nav-link" href="{{ url('#about') }}">About Us</a>

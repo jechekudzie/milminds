@@ -1,6 +1,6 @@
 @extends('layouts.fly_express')
 
-@section('title', 'Fly Express')
+@section('title', 'Fly Express Courier Services')
 
 @section('content')
     <!-- Hero banner -->
@@ -19,7 +19,7 @@
                                     <h2 class="h5 font-weight-700 text-warning letter-spacing-sm mb-lg-0 add-animate"
                                         data-animated="bounceInLeft">Elevating Courier Services</h2>
                                     <h1 class="display-2 font-weight-800 text-white add-animate"
-                                        data-animated="bounceInRight">Fly Express</h1>
+                                        data-animated="bounceInRight">Fly Express Courier Services</h1>
                                     <div class="lead-sm font-weight-500 text-white pb-2 mb-5 add-animate"
                                          data-animated="bounceInLeft">
                                         Your Swift, Safe, and Reliable Courier Partner!
@@ -70,7 +70,7 @@
                                     <div class="pr-md-4 pl-md-0 pr-xl-5 order-md-1">
                                         <h3 class="font-weight-700 text-white mb-3 mb-md-1">Beyond Boundaries, <span
                                                 class="text-warning">Beyond Speed</span></h3>
-                                        <p class="mb-md-0">Fly Express, Flying without Wings.</p>
+                                        <p class="mb-md-0">Fly Express Courier Services, Flying without Wings.</p>
                                     </div>
                                 </div>
 

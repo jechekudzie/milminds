@@ -1,6 +1,6 @@
 @extends('layouts.cleaning_bees')
 
-@section('title', 'Cleaning Bees')
+@section('title', 'Cleaning Bees Cleaning Services')
 
 @section('content')
     <!-- Hero banner -->
@@ -120,7 +120,7 @@
                 <div class="col-lg-8">
                     <div class="pr-lg-5 mb-5 mb-lg-0">
 
-                        <h5 class="font-weight-400">Cleaning Bees Services</h5>
+                        <h5 class="font-weight-400">Cleaning Bees Cleaning Services</h5>
 
                         <div data-height="3px"></div>
 
@@ -129,7 +129,7 @@
                             <div class="title-divider-round"></div>
                         </h2>
                         <div class="lead-sm pt-2 mb-5">
-                            Guardians of cleanliness, Cleaning Bees takes pride as a vibrant subsidiary of Mil-Minds
+                            Guardians of cleanliness, Cleaning Bees Cleaning Services takes pride as a vibrant subsidiary of Mil-Minds
                             Holdings, committed to delivering exceptional cleaning services throughout Zimbabwe. We are
                             the architects of pristine environments, catering to the dynamic needs of commercial
                             establishments as well as the tranquility of residential homes.
@@ -247,7 +247,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="text-center">
 
-                        <h3 style="color: #154070" class="font-weight-400">Cleaning Bees</h3>
+                        <h3 style="color: #154070" class="font-weight-400">Cleaning Bees Cleaning Services</h3>
 
                         <div data-height="3px"></div>
 
@@ -843,7 +843,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="text-center">
 
-                        <h5 style="color: #154070;" class="font-weight-400 {{--text-white-75--}}">Cleaning Bees</h5>
+                        <h5 style="color: #154070;" class="font-weight-400 {{--text-white-75--}}">Cleaning Bees Cleaning Services</h5>
 
                         <div data-height="3px"></div>
 
@@ -854,7 +854,7 @@
 
                         <p style="color: #154070;font-size: 18px;background-color: #ffdc1d;">
                             With a team that is both professional and technically skilled, we pledge to enhance the
-                            hygiene and comfort of our clients' environments. At Cleaning Bees, excellence isn't
+                            hygiene and comfort of our clients' environments. At Cleaning Bees Cleaning Services, excellence isn't
                             just an aspiration; it's a standard we live by every day.
                         </p>
 
@@ -865,7 +865,7 @@
 
                         <p style="color: #154070;font-size: 18px;background-color: #ffdc1d;">
                             Get acquainted with our passionate leaders, Tariro Samantha Guma and Marshall Tinashe
-                            Guma, who guide Cleaning Bees with their extensive expertise and commitment to ethical
+                            Guma, who guide Cleaning Bees Cleaning Services with their extensive expertise and commitment to ethical
                             standards in the industry.
                         </p>
 
@@ -896,7 +896,7 @@
                                     <div class="pb-2 pb-md-4">
                                         <p>
                                             Are you ready to elevate your standard of cleanliness? Reach out to us,
-                                            and let Cleaning Bees orchestrate the perfect ambiance of purity and
+                                            and let Cleaning Bees Cleanign Services orchestrate the perfect ambiance of purity and
                                             comfort for you.
                                         </p>
                                     </div>
@@ -913,7 +913,7 @@
                                     <div class="pb-2 pb-md-4">
                                         <p>
                                             Embark on a journey to a cleaner, more serene tomorrow. Reserve your
-                                            service with Cleaning Bees today and embrace a lifestyle where
+                                            service with Cleaning Bees Cleaning Service today and embrace a lifestyle where
                                             cleanliness harmonizes with ease and comfort.
                                         </p>
                                     </div>

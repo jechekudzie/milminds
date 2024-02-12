@@ -123,11 +123,11 @@
                                             </div>
                                             <select class="custom-select custom-select-lg">
                                                 <option selected>Select Brand</option>
-                                                <option value="Mil-mind advisory">Mil-mind advisory</option>
-                                                <option value="Cleaning Bees">Cleaning Bees</option>
+                                                <option value="Mil-mind advisory">Mil-Mind Advisory Services</option>
+                                                <option value="Cleaning Bees">Cleaning Bees Cleaning Services</option>
                                                 <option value="Colorful Expression">Colorful Expression</option>
-                                                <option value="Fly-Express">Fly-Express</option>
-                                                <option value="Waymaker">Waymaker</option>
+                                                <option value="Fly-Express">Fly-Express Courier Services</option>
+                                                <option value="Waymaker">Way-maker Travel & Tour </option>
                                             </select>
                                             <div class="input-focus-bg"></div>
                                         </div>

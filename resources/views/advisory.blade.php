@@ -65,7 +65,7 @@
 
             <div class="container pt-5">
                 <div class="py-5 my-4">
-                    <h2 class="text-center display-4 font-weight-800 text-black mb-4">Mil-Minds Advisory</h2>
+                    <h2 class="text-center display-4 font-weight-800 text-black mb-4">Mil-Minds Advisory Services</h2>
 
                     <div data-height="10px"></div>
 
@@ -142,7 +142,7 @@
                     <div class="col-lg-12">
                         <div class="py-3 pr-lg-4 mb-5 mb-lg-0">
 
-                            <h2 class="display-4 font-weight-300 text-primary mb-1">Mil-Minds Advisory</h2>
+                            <h2 class="display-4 font-weight-300 text-primary mb-1">Mil-Minds Advisory Services</h2>
 
                             <h2 class="display-4 font-weight-800 text-white mb-4">Who We Are?</h2>
 
@@ -431,17 +431,17 @@
         <div class="container-fluid p-0">
             <div class="row no-gutters">
 
-                <div class="col-lg-6 bg-image" data-img-src="{{asset('/images/BusinessCommunity.jpg')}}">
-                    <div class="d-lg-none" data-height="70vw"></div>
+                <div class="col-lg-7 bg-image" data-img-src="{{asset('/images/BusinessCommunity.jpg')}}">
+                    <div class="d-lg-none" data-height="60vw"></div>
                 </div>
 
-                <div class="col-lg-6 bg-light p-4 p-md-5">
+                <div class="col-lg-5 bg-light p-4 p-md-5">
                     <div class="row no-gutters">
                         <div class="col-md-8 offset-md-2 col-lg-12 offset-lg-0 col-xl-8 offset-xl-2 text-center">
 
                             <div data-height="100px"></div>
 
-                            <h5 class="font-weight-400">Mil-Minds Advisory</h5>
+                            <h5 class="font-weight-400">Mil-Minds Advisory Services</h5>
 
                             <div data-height="3px"></div>
 

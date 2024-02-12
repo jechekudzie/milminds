@@ -14,7 +14,7 @@
                         <div data-height="5px"></div>
 
                         <p>
-                            Milminds Holdings emerges as a paragon of corporate synergy, an umbrella for distinct brands
+                            Mil-Minds Holdings emerges as a paragon of corporate synergy, an umbrella for distinct brands
                             that together, form a tapestry of excellence and innovation. Our collective prowess spans
                             from strategic business advisory to lifestyle and travel management, all while championing
                             the principles of integrity and inclusive growth.
@@ -58,22 +58,22 @@
 
                             <ul class="custom-list fa-ul mb-0 ml-4">
                                 <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                    <a href="{{ route('home') }}" class="text-white-50 text-hover-primary">Milminds Holdings</a>
+                                    <a href="{{ route('home') }}" class="text-white-50 text-hover-primary">Mil-Minds Holdings</a>
                                 </li>
                                 <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                    <a href="{{ route('advisory') }}" class="text-white-50 text-hover-primary">Milminds Advisory</a>
+                                    <a href="{{ route('advisory') }}" class="text-white-50 text-hover-primary">Mil-Minds Advisory Services</a>
                                 </li>
                                 <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                    <a href="{{ route('cleaning-bees') }}" class="text-white-50 text-hover-primary">Cleaning Bees</a>
+                                    <a href="{{ route('cleaning-bees') }}" class="text-white-50 text-hover-primary">Cleaning Bees Cleaning Services</a>
                                 </li>
                                 <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
                                     <a href="{{ route('colorful-expressions') }}" class="text-white-50 text-hover-primary">Colorful Expressions</a>
                                 </li>
                                 <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                    <a href="{{ route('fly-express') }}" class="text-white-50 text-hover-primary">Fly Express</a>
+                                    <a href="{{ route('fly-express') }}" class="text-white-50 text-hover-primary">Fly Express Courier Services</a>
                                 </li>
                                 <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
-                                    <a href="{{ route('way-maker') }}" class="text-white-50 text-hover-primary">Waymaker</a>
+                                    <a href="{{ route('way-maker') }}" class="text-white-50 text-hover-primary">Way-maker Travel & Tour </a>
                                 </li>
                                 <li><span class="fa-li"><i class="fas fa-angle-right text-primary"></i></span>
                                     <a href="{{ route('home') }}" class="text-white-50 text-hover-primary">Contact Us</a>
@@ -170,7 +170,7 @@
             <div class="row py-3">
 
                 <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-                    <large>Copyright @ {{date('Y')}} Milminds Holdings - <a href="https://leadingdigital.africa">Developed
+                    <large>Copyright @ {{date('Y')}} Mil-Minds Holdings - <a href="https://leadingdigital.africa">Developed
                             By Leading Digital.</a></large>
                 </div>
 

@@ -113,7 +113,7 @@
             <!-- ... -->
             <ul class="navbar-nav {{--ml-auto--}}">
                 <li class="nav-item">
-                    <a style="color: white;" class="nav-link" href="{{ url('/fly-express') }}">Fly Express</a>
+                    <a style="color: white;" class="nav-link" href="{{ url('/fly-express') }}">Fly Express Courier Services</a>
                 </li>
                 <li class="nav-item">
                     <a style="color: white;" class="nav-link" href="{{ url('#about') }}">About Us</a>

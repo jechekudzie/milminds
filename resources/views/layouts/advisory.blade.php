@@ -113,7 +113,7 @@
             <!-- ... -->
             <ul class="navbar-nav {{--ml-auto--}}">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/advisory') }}">Mil-Minds Advisory</a>
+                    <a class="nav-link" href="{{ url('/advisory') }}">Mil-Minds Advisory Services</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('#vision') }}">Our Vision</a>
